@@ -1,0 +1,10 @@
+Unknown configuration setting `temp-night '.
+Unknown configuration setting `temp-day '.
+Unknown configuration setting `dusk-time '.
+Unknown configuration setting `dawn-time '.
+Unknown configuration setting `fade '.
+Trying location provider `geoclue2'...
+Using provider `geoclue2'.
+Using method `randr'.
+Waiting for initial location to become available...
+Location: 52.46 N, 1.50 W
