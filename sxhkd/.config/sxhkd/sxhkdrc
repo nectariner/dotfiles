@@ -67,6 +67,8 @@ super + e
 super + b 
    firefox 
 
+super + r
+    ranger
 #Default terminal on the system (changed in ~/.profile 
 super + Return
    default-terminal &
