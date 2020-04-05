@@ -1,0 +1,87 @@
+# You can edit this file by hand, but it's recommended not to do that.
+
+# Marks:
+'H
+	/home/fred/
+	..
+1586126032
+'b
+	/home/fred/bin/
+	..
+1586126032
+'h
+	/home/fred/
+	..
+1586126032
+
+# Bookmarks:
+
+# TUI:
+al
+q1
+v2
+ov
+m-1
+l2
+r2
+
+# Left window history (oldest to newest):
+d/home/fred/nextcloud
+	todoForSystem
+35
+d/home/fred
+	Pictures
+6
+d/home/fred/Pictures
+	wallpapers
+1
+d/home/fred/Pictures/wallpapers
+	glowing-tides-2560×1440.jpg
+6
+d
+
+# Right window history (oldest to newest):
+D/home/fred/nextcloud
+	Wallpapers
+1
+D/home/fred
+	nextcloud
+16
+D/home
+	fred
+1
+D/home/fred
+	nextcloud
+16
+D/home/fred/nextcloud
+	..
+0
+D
+
+# Command line history (oldest to newest):
+:q
+
+# Search history (oldest to newest):
+
+# Prompt history (oldest to newest):
+pIMG_20190515_181024.jpg
+
+# Local filter history (oldest to newest):
+
+# Registers:
+""/home/fred/nextcloud/things_to_learn.org
+
+# Directory stack (oldest to newest):
+
+# Trash content:
+
+# State:
+f
+i1
+[.1
+[F
+F
+I1
+].1
+]F
+s0

@@ -68,7 +68,7 @@ super + b
    firefox 
 
 super + r
-    alacritty -e nnn
+    alacritty -e ~/.config/vifm/scripts/vifmrun 
 #Default terminal on the system (changed in ~/.profile 
 super + Return
     WINIT_HIDPI_FACTOR=1.0 alacritty & 
