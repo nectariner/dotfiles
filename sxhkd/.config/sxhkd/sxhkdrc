@@ -68,7 +68,7 @@ super + b
    firefox 
 
 super + r
-    alacritty -e ranger
+    alacritty -e nnn
 #Default terminal on the system (changed in ~/.profile 
 super + Return
    default-terminal &
