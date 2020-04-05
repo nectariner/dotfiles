@@ -71,7 +71,7 @@ super + r
     alacritty -e nnn
 #Default terminal on the system (changed in ~/.profile 
 super + Return
-   default-terminal &
+    WINIT_HIDPI_FACTOR=1.0 alacritty & 
  
 # DMENU SCRIPTS 
 
