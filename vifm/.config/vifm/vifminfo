@@ -18,7 +18,7 @@
 
 # TUI:
 al
-q1
+q0
 v2
 ov
 m-1
@@ -36,8 +36,140 @@ d/home/fred/Pictures
 	wallpapers
 1
 d/home/fred/Pictures/wallpapers
-	glowing-tides-2560×1440.jpg
-6
+	..
+0
+d/home/fred/Pictures
+	..
+0
+d/home/fred
+	dotfiles
+9
+d/home/fred/dotfiles
+	alacritty
+2
+d/home/fred/dotfiles/alacritty
+	..
+0
+d/home/fred/dotfiles
+	alacritty
+1
+d/home/fred/dotfiles/alacritty
+	..
+0
+d/home/fred/dotfiles
+	alacritty_laptop
+2
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/.config/alacritty
+	alacritty.yml
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles
+	alacritty_laptop
+3
+d/home/fred
+	dotfiles
+9
+d/home
+	fred
+1
+d/
+	home
+4
+d/home
+	fred
+1
+d/home/fred
+	dotfiles
+9
+d/home/fred/dotfiles
+	alacritty_laptop
+3
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/.config/alacritty
+	alacritty.yml
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	..
+0
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles
+	alacritty_laptop
+3
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config/alacritty
+	alacritty.yml
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles
+	alacritty_laptop
+3
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
+	alacritty.yml
+1
 d
 
 # Right window history (oldest to newest):
@@ -54,12 +186,34 @@ D/home/fred
 	nextcloud
 16
 D/home/fred/nextcloud
-	..
-0
+	learning_resources
+10
+D/home/fred
+	dotfiles
+9
+D/home/fred/dotfiles
+	alacritty
+1
+D/home/fred/dotfiles/alacritty
+	.config
+1
+D/home/fred/dotfiles/alacritty/.config
+	alacritty
+1
+D/home/fred/dotfiles/alacritty/.config/alacritty
+	alacritty.yml
+1
 D
 
 # Command line history (oldest to newest):
+:mkdir alacritty_laptop/.config/alacritty -p
+:mkdir alacritty_laptop/.config
+:mkdir alacritty_laptop
+:mkdir .config
+:w
 :q
+:mkdir alacritty
+:wq
 
 # Search history (oldest to newest):
 
@@ -69,19 +223,23 @@ pIMG_20190515_181024.jpg
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/fred/nextcloud/things_to_learn.org
+""/home/fred/.local/share/vifm/Trash/000_.config
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/fred/.local/share/vifm/Trash/000_-p
+	/home/fred/dotfiles/-p
+t/home/fred/.local/share/vifm/Trash/000_.config
+	/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config
 
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
-].1
+].0
 ]F
 s0
