@@ -6,6 +6,7 @@ sxhkd &
 ~/.config/polybar/launch.sh & 
 nitrogen --restore &
 redshift -c ~/.config/redshift.conf &
+unclutter --timeout 4 &
 xfce4-power-manager &
 nm-applet &
 #### MONITORS ####
