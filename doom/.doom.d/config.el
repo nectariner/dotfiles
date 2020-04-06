@@ -31,7 +31,6 @@
 
 ;;(setq doom-theme 'dracula)
 (setq doom-theme 'doom-dracula)
-
 ;; If you use `org' and don't want your org files in the default location below,
 ;; change `org-directory'. It must be set before org loads!
 (setq org-directory "~/org/")
@@ -73,3 +72,8 @@
 
 
 (global-wakatime-mode)
+
+
+;;neotree icons
+(setq doom-themes-neotree-enable-file-icons t)
+(setq doom-themes-neotree-file-icons t)
