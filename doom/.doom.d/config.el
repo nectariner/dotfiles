@@ -12,7 +12,7 @@
 ;; Doom exposes five (optional) variables for controlling fonts in Doom. Here
 ;; are the three important ones:
 ;;
-;; + `doom-font'
+;; + `setqdoom-font'
 ;; + `doom-variable-pitch-font'
 ;; + `doom-big-font' -- used for `doom-big-font-mode'; use this for
 ;;   presentations or streaming.
@@ -21,7 +21,7 @@
 ;; font string. You generally only need these two:
 ;;(setq doom-font (font-spec :name "Noto Sans Mono":size 13))
 (setq doom-font (font-spec :name "DroidSansMono Nerd Font Mono Book":size 16))
-;;(setq doom-font (font-spec:name "Source Code Pro Regular" : size 11))
+;;( doom-font (font-spec:name "Source Code Pro Regular" : size 11))
 ;;(setq doom-font (font-spec :family "Fira Mono" :size 12))
 ;; There are two ways to load a theme. Both assume the theme is installed and
 ;; available. You can either set `doom-theme' or manually load a theme with the
@@ -79,3 +79,28 @@
 ;;neotree icons
 (setq doom-themes-neotree-enable-file-icons t)
 (setq doom-themes-neotree-file-icons t)
+
+;;prettier
+(require 'prettier-js)
+(add-hook 'js2-mode-hook 'prettier-js-mode)
+(setq prettier-js-args '(
+  {
+  "--arrowParens": "always",
+  "--bracketSpacing": true,
+  "--htmlWhitespaceSensitivity": "css",
+  "--insertPragma": false,
+  "--jsxBracketSameLine": false,
+  "--jsxSingleQuote": false,
+  "--proseWrap": "preserve",
+  "--quoteProps": "as-needed",
+  "--requirePragma": false,
+  "--semi": true,
+  "--singleQuote": false,
+  "--tabWidth": 4,
+  "--trailingComma": "es5",
+  "--useTabs": true,
+  "--vueIndentScriptAndStyle": false,
+  "--printWidth": 96
+}
+))
+
