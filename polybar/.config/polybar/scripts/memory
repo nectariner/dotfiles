@@ -1,0 +1,6 @@
+[module/memory]
+type = internal/memory
+interval = 1
+
+format-prefix = %{T3}﬙%{T-}
+label = " %percentage_used%%"

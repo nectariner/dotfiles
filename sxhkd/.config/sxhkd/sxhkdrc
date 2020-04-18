@@ -54,6 +54,11 @@ super + {o,i}
 super + {_,shift + }{1-9,0}
 	bspc {desktop -f,node -d} focused:'^{1-9,10}'
 
+#toggle polybar
+super + b
+    ~/.scripts/bspc_polybar_toggle
+     
+
 # Alternative: i3 style behavior (focus nth, desktop of the focused monitor)
 super + {1-9,0}
     focusdesktopofthismonitor {1-9}

@@ -92,6 +92,8 @@ alias df='df -h'                          # human-readable sizes
 alias free='free -m'                      # show sizes in MB
 alias np='nano -w PKGBUILD'
 alias more=less
+alias vim="nvim"
+alias vifm="~/.config/vifm/scripts/vifmrun"
 
 xhost +local:root > /dev/null 2>&1
 

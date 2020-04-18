@@ -1,28 +1,4 @@
 #####Fred Cook#####
-include-file = /home/$USER/.config/polybar/colors
-
-include-file = /home/$USER/.config/polybar/scripts/battery
-include-file = /home/$USER/.config/polybar/scripts/cpu
-include-file = /home/$USER/.config/polybar/scripts/date
-include-file = /home/$USER/.config/polybar/scripts/filemanager
-include-file = /home/$USER/.config/polybar/scripts/i3
-include-file = /home/$USER/.config/polybar/scripts/launcher
-include-file = /home/$USER/.config/polybar/scripts/lockscreen
-include-file = /home/$USER/.config/polybar/scripts/memory
-include-file = /home/$USER/.config/polybar/scripts/pulseaudio
-include-file = /home/$USER/.config/polybar/scripts/session
-include-file = /home/$USER/.config/polybar/scripts/temperature
-include-file = /home/$USER/.config/polybar/scripts/title
-include-file = /home/$USER/.config/polybar/scripts/window
-include-file = /home/$USER/.config/polybar/scripts/wlan
-include-file = /home/$USER/.config/polybar/scripts/xbacklight
-include-file = /home/$USER/.config/polybar/scripts/xworkspaces
-
-include-file = /home/$USER/.config/polybar/scripts/code
-include-file = /home/$USER/.config/polybar/scripts/firefox
-include-file = /home/$USER/.config/polybar/scripts/google-chrome
-include-file = /home/$USER/.config/polybar/scripts/steam
-include-file = /home/$USER/.config/polybar/scripts/terminal
 
 [global/wm]
 ;https://github.com/jaagr/polybar/wiki/Configuration#global-wm-settings
@@ -43,7 +19,6 @@ compositing-border = over
 
 [padding]
 bspwm-padding = 1
-bspwm-margin = 1
 
 ; Define fallback values used by all module formats
 [colors]
@@ -54,7 +29,7 @@ background = #D0282a36
 background-alt = #073642                
 
 ;beigey yellow
-;foreground = #ffb86c                    
+foreground = #ffb86c                    
 
 ;white
 foreground-alt = #ffffff               
@@ -113,7 +88,15 @@ foreground2= #0xf8f8f2
 ;cyan:    '0x8be9fd'
 ;white:   '0xffffff'
 
-[bar/main]
+
+
+################################################################################
+################################################################################
+############                  MAINBAR-BSPWM                         ############
+################################################################################
+################################################################################
+
+[bar/mainbar-bspwm]
 monitor = ${env:MONITOR}
 monitor-fallback = HDMI1
 width = 100%
@@ -125,8 +108,8 @@ fixed-center = true
 bottom = false
 separator =
 
-background = ${colors.trans}
-foreground = ${colors.fg}
+background = ${colors.background}
+foreground = ${colors.foreground}
 
 line-size = 2
 line-color = #f00
@@ -145,21 +128,20 @@ border-size = 0
 ;border-bottom-size = 25
 border-color = #00000000
 
-padding-left = 1
+padding-left = 0
 padding-right =1
 
-module-margin-left = 1
-module-margin-right = 2
+module-margin-left = 2
+module-margin-right = 0
 
 ;https://github.com/jaagr/polybar/wiki/Fonts
 ;font-0 = "FantasqueSansMono Nerd Font:size=14;2"
-;font-0 = "UbuntuMono Nerd Font:size=14;2"
-;font-0 = "SauceCodePro Medium nerd Font: size=12;2"
-font-0 = "DroidSansMono nerd font:size=12;2"
+;font-0 = "UbuntuMono Nerd Font:size=11;2"
+font-0 = "DroidSansMono nerd font:size=11;2"
 
 modules-left = bspwm
-modules-center = date
-modules-right = pavolume cpu memory arch-aur-updates 
+modules-center = 
+modules-right = pavolume cpu memory temperature arch-aur-updates date
 
 tray-detached = false
 tray-offset-x = 0
@@ -175,52 +157,90 @@ tray-format-underline = #ffffff
 type = custom/script
 formt-prefix = ""
 exec = ~/.config/polybar/scripts/check-all-updates.sh
-label = " %output%" 
+label = "  updates: %output%" 
 interval = 60
+format-underline = #ffffff
 
 [module/bspwm]
 type = internal/bspwm
-;;;;;;label-focused =%index%
-label-focused =%icon%
-label-focused-background = ${colors.lilac}
+;;;;;;label-focused = %index%
+label-focused = %icon%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
 label-focused-padding = ${padding.bspwm-padding}
-label-focused-margin = ${padding.bspwm-margin}
-label-occupied =%icon%
-label-occupied-padding =${padding.bspwm-padding}
-label-occupied-margin = ${padding.bspwm-margin}
-label-occupied-underline = ${colors.underline}
+label-occupied = %icon%
+label-occupied-padding = ${padding.bspwm-padding}
 ;;;;;label-urgent = %index%!
-label-urgent =%icon%
+label-urgent = %icon%
 
 label-urgent-background = ${colors.alert}
 label-urgent-padding = ${padding.bspwm-padding}
-label-urgen-margin = ${padding.bspwm-margin}
+
 ;;;;;label-empty = %index%
 label-empty = %icon%
 
 label-empty-foreground = ${colors.foreground-alt}
 label-empty-padding = ${padding.bspwm-padding}
-label-empty-margin = ${padding.bspwm-margin}
 
 line-size = 0
 
-ws-icon-0 = 1;1
-ws-icon-1 = 2;2
-ws-icon-2 = 3;3
-ws-icon-3 = 4;4
-ws-icon-4 = 5;5 
-ws-icon-5 = 6;6 
-ws-icon-6 = 7;7
-ws-icon-7 = 8;8
-;#ws-icon-8 = 9;
-;###ws-icon-9 = 10;
-;##ws-icon-default = " "
+ws-icon-0 = 1;Work 
+ws-icon-1 = 2;Work 2 
+ws-icon-2 = 3;Browsing 
+ws-icon-3 = 4;Youtube 
+ws-icon-4 = 5;Messaging 
+ws-icon-5 = 6;Movies / Downloads 
+ws-icon-6 = 7;Misc 
+ws-icon-7 = 8;Music 
+#ws-icon-8 = 9;
+###ws-icon-9 = 10;
+##ws-icon-default = " "
 
+
+[module/cpu]
+type = internal/cpu
+interval = 5
+format-prefix = " "
+format-prefix-foreground = ${colors.foreground-alt}
+label =   cpu: %percentage:2%%
+format-underline = #ffffff
+
+label-foreground = ${colors.bright-yellow} 
+
+[module/memory]
+type = internal/memory
+interval = 5
+format-prefix-foreground = ${colors.foreground-alt}
+label =   mem: %percentage_used%%
+label-foreground = #50fa7b
+format-underline = #ffffff
+
+[module/wlan]
+type = internal/network
+interface = wlo1
+interval = 30.0
+format-connected = <label-connected>
+format-connected-underline = #ffffff
+label-connected =  %essid%
+label-connected-foreground = #ff79c6
+format-disconnected =
+
+[module/date]
+type = internal/date
+interval = 15
+date = %a %Y-%m-%d
+time = %H:%M
+format-prefix = 
+format-prefix-foreground = ${colors.foreground-alt}
+label =   %date%  %time%
+label-foreground = ${colors.bright-red} 
+line-size = 0
+format-underline = #ffffff
 
 [module/pavolume]
 type = custom/script
 tail = true
-label =%output%
+label = %output%
 exec = ~/.config/polybar/scripts/pavolume.sh --listen
 click-right = exec pavucontrol
 click-left = ~/.config/polybar/scripts/pavolume.sh --togmute
@@ -228,4 +248,31 @@ scroll-up = ~/.config/polybar/scripts/pavolume.sh --up
 scroll-down = ~/.config/polybar/scripts/pavolume.sh --down
 ;format-foreground = #fefefe
 ;format-background = #7197E7
+label-foreground = ${colors.cyan} 
+format-muted-foreground = ${colors.foreground-alt}
+format-underline =  #ffffff
 
+[module/battery]
+type = internal/battery
+battery = BAT1
+adapter = AC
+full-at = 90
+label-charging =   %percentage%%
+label-discharging =   %percentage%%
+label-full =   %percentage%%
+label-full-foreground = #bd93f9
+label-chargin-foreground = #bd93f9
+label-discharging-foreground = #bd93f9
+format-charging = <label-charging>
+format-discharging = <label-discharging>
+format-charging-underline = #ffffff
+format-full-underline = #ffffff
+format-discharging-underline = #ffffff
+
+[module/temperature]
+type = internal/temperature
+interval = 1
+thermal-zone = 0
+hwmon-path = /sys/class/hwmon/hwmon0/temp1_input
+label-foreground = ${colors.magenta}
+format-underline = ${colors.underline} 
