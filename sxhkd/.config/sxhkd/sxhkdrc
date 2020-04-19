@@ -11,7 +11,7 @@ super + c
 
 #send a window to the next monitor and keep focus on it (custom)
 super + o
-        bspc node -m next --follow 
+        bspc node -m next --follow
 
 # swap the current node and the biggest node
 super + g
@@ -36,9 +36,16 @@ super + {_,shift + }{h,j,k,l}
 super + {_,shift + }n
 	bspc node -f {next,prev}.local
 
+#ORIGINALS
 # focus the next/previous desktop in the current monitor
-super + bracket{left,right}
-	bspc desktop -f {prev,next}.local
+#super + bracket{left,right}
+#	bspc desktop -f {prev,next}.local
+
+super + bracket{left}
+    ~/.scripts/bspcBackward
+
+super + bracket{right
+    ~/.scripts/bspcForward
 
 # focus the last node/desktop
 super + {grave,Tab}
@@ -57,7 +64,6 @@ super + {_,shift + }{1-9,0}
 #toggle polybar
 super + b
     ~/.scripts/bspc_polybar_toggle
-     
 
 # Alternative: i3 style behavior (focus nth, desktop of the focused monitor)
 super + {1-9,0}

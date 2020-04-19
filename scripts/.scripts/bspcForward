@@ -1,0 +1,5 @@
+#!/bin/sh
+bspc desktop next.local -f
+bspc monitor next -f
+bspc desktop next.local -f
+bspc monitor next -f

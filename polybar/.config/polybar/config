@@ -183,6 +183,7 @@ type = internal/bspwm
 ;;;;;;label-focused =%index%
 label-focused =%icon%
 label-focused-background = ${colors.lilac}
+label-focused-underline = ${colors.underline}
 label-focused-padding = ${padding.bspwm-padding}
 label-focused-margin = ${padding.bspwm-margin}
 label-occupied =%icon%

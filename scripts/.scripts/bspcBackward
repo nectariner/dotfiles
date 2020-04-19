@@ -1,0 +1,5 @@
+#!/bin/sh
+bspc desktop prev.local -f
+bspc monitor prev -f
+bspc desktop prev.local -f
+bspc monitor prev -f
