@@ -17,7 +17,7 @@
 # Bookmarks:
 
 # TUI:
-al
+ar
 q0
 v2
 ov
@@ -170,6 +170,24 @@ d/home/fred/dotfiles/alacritty_laptop/.config
 d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
 	alacritty.yml
 1
+d/home/fred/dotfiles/alacritty_laptop/.config
+	alacritty
+1
+d/home/fred/dotfiles/alacritty_laptop
+	.config
+1
+d/home/fred/dotfiles
+	polybar
+10
+d/home/fred/dotfiles/polybar
+	.config
+1
+d/home/fred/dotfiles/polybar/.config
+	polybar
+1
+d/home/fred/dotfiles/polybar/.config/polybar
+	dracula_bar
+1
 d
 
 # Right window history (oldest to newest):
@@ -201,8 +219,44 @@ D/home/fred/dotfiles/alacritty/.config
 	alacritty
 1
 D/home/fred/dotfiles/alacritty/.config/alacritty
-	alacritty.yml
+	..
+0
+D/home/fred/dotfiles/alacritty/.config
+	alacritty
 1
+D/home/fred/dotfiles/alacritty
+	.config
+1
+D/home/fred/dotfiles
+	polybar_laptop
+11
+D/home/fred/dotfiles/polybar_laptop
+	.config
+1
+D/home/fred/dotfiles/polybar_laptop/.config
+	polybar
+1
+D/home/fred/dotfiles/polybar_laptop/.config/polybar
+	config
+5
+D/home/fred/dotfiles/polybar_laptop/.config
+	polybar
+1
+D/home/fred/dotfiles/polybar_laptop
+	.config
+1
+D/home/fred/dotfiles
+	polybar_laptop
+11
+D/home/fred
+	Pictures
+10
+D/home/fred/Pictures
+	wallpapers
+1
+D/home/fred/Pictures/wallpapers
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -210,10 +264,10 @@ D
 :mkdir alacritty_laptop/.config
 :mkdir alacritty_laptop
 :mkdir .config
-:w
 :q
 :mkdir alacritty
 :wq
+:w
 
 # Search history (oldest to newest):
 
@@ -223,7 +277,14 @@ pIMG_20190515_181024.jpg
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/fred/.local/share/vifm/Trash/000_.config
+""/home/fred/dotfiles/polybar/.config/polybar/dracula_bar
+""/home/fred/dotfiles/polybar/.config/polybar/scripts
+""/home/fred/dotfiles/polybar/.config/polybar/README.md
+""/home/fred/dotfiles/polybar/.config/polybar/colors
+""/home/fred/dotfiles/polybar/.config/polybar/config
+""/home/fred/dotfiles/polybar/.config/polybar/configexample
+""/home/fred/dotfiles/polybar/.config/polybar/launch.sh
+""/home/fred/dotfiles/polybar/.config/polybar/nohup.out
 
 # Directory stack (oldest to newest):
 

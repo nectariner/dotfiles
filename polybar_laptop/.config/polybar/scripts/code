@@ -1,0 +1,7 @@
+[module/code]
+type = custom/script
+
+click-left = code&
+exec = echo %{T3}%{T-}
+format-foreground = ${colors.code}
+format-padding = 1
