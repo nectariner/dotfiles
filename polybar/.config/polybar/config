@@ -155,7 +155,8 @@ module-margin-right = 2
 ;font-0 = "FantasqueSansMono Nerd Font:size=14;2"
 ;font-0 = "UbuntuMono Nerd Font:size=14;2"
 ;font-0 = "SauceCodePro Medium nerd Font: size=12;2"
-font-0 = "DroidSansMono nerd font:size=12;2"
+;font-0 = "DroidSansMono nerd font:size=12;2"
+font-0 = "NotoSansMono nerd font:size=12;2"
 
 modules-left = bspwm
 modules-center = date
