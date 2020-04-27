@@ -192,8 +192,15 @@ function parse_git_dirty {
 	fi
 }
 
-#export PS1=" \[\033[32m\]\h\[\033[32m\]@\u \w \`parse_git_branch\` \\$  "
-PS1="\[\033[01;32m\]\u@\h\[\033[00m\]: \[\033[01;34m\]\w\[\033[00m\] \[\033[01;36m\]\`parse_git_branch\`\$ \[\033[00m\]\]"
+#PS1="\[\033[01;32m\]\u@\h\[\033[00m\]: \w\[\033[00m\]"
+#export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]: \[\033[01;34m\]\w\[\033[00m\] \[\033[01;36m\]\`parse_git_branch\`$ \[\033[00m\]\]"
+GIT_PS1_SHOWDIRTYSTATE=true
+PS1="\[\033[01;32m\]\u@\h"
+PS1+="\[\033[00m\]: "
+PS1+="\[\033[01;34m\]\w\[\033[00m\] "
+PS1+="\[\033[01;36m\]\`parse_git_branch\`$ "
+PS1+="\[\033[00m\]"
+export PS1
 stty -ixon  #Disable control s/q
 alias ls='ls -hn --color=auto --group-directories-first'
 alias grep='grep --colour=auto'
