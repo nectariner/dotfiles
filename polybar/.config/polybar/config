@@ -42,7 +42,7 @@ compositing-underline = over
 compositing-border = over
 
 [padding]
-bspwm-padding = 1
+bspwm-padding = 2
 bspwm-margin = 1
 
 ; Define fallback values used by all module formats
@@ -141,7 +141,7 @@ enable-ipc = true
 border-size = 0
 ;border-left-size = 0
 ;border-right-size = 25
-;border-top-size = 0
+border-top-size = 3
 ;border-bottom-size = 25
 border-color = #00000000
 
@@ -154,9 +154,13 @@ module-margin-right = 2
 ;https://github.com/jaagr/polybar/wiki/Fonts
 ;font-0 = "FantasqueSansMono Nerd Font:size=14;2"
 ;font-0 = "UbuntuMono Nerd Font:size=14;2"
+font-0 = "Arimo Nerd Font:style=mono:size=15"
+;font-0 = "ArulentSansMono Nerd Font:size=14"
+;font-fallback = "DroidSansMono Nerd Font Mono:size=14;2"
+
 ;font-0 = "SauceCodePro Medium nerd Font: size=12;2"
-font-0 = "DroidSansMono Nerd Font Mono:size=14;2"
-;font-0 = "NotoSansMono nerd font:size=12;2"
+;font-0 = "DroidSansMono Nerd Font Mono:size=14;2"
+;font-fallback = "NotoSansMono nerd font:size=12;2"
 
 modules-left = bspwm
 modules-center = date
@@ -164,7 +168,7 @@ modules-right = pavolume cpu memory arch-aur-updates
 
 tray-detached = false
 tray-offset-x = 0
-tray-offset-y = 0
+tray-offset-y = -3
 tray-position = right
 tray-padding = 9
 tray-maxsize = 20
