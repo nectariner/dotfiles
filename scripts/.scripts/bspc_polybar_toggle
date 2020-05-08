@@ -1,8 +1,8 @@
 #!/bin/sh
 polybar-msg cmd toggle
-if [ $(bspc config top_padding) == 30 ]
+if [ $(bspc config top_padding) == 0 ]
     then
-        bspc config top_padding 0
-    else
         bspc config top_padding 30
+    else
+        bspc config top_padding 0
 fi

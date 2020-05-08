@@ -1,0 +1,9 @@
+number_of_monitors=$(xrandr | grep -wc "connected")
+
+number_of_monitors=$(xrandr | grep -wc "connected")
+
+for ((i = 1; i < number_of_monitors + 1; i++))
+do
+  bspc monitor $(xrandr | grep -w "connected" | sed "${i}q;d" | awk '{print $1}') -d 1 2 3 4 5 6 7 8 9
+done
+

@@ -170,6 +170,7 @@ tray-maxsize = 20
 tray-scale = 0.98
 tray-format-underline = #ffffff
 ;tray-background = ${colors.background2}
+tray-background = #00000000
 
 [module/arch-aur-updates]
 type = custom/script

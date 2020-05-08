@@ -10,8 +10,7 @@ xfce4-power-manager &
 nm-applet &
 unclutter --timeout 4 &
 #### MONITORS ####
-bspc monitor DP-0 -d 1 2 3 4 5 6 7 8
-bspc monitor HDMI-0 -d 1 2 3 4 5 6 7 8
+~/.scripts/bspc_monitor_startup &
 
 #### BSPWM configuration ####
 #bspc config border_radius                8
