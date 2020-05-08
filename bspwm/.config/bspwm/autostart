@@ -35,8 +35,7 @@ eval $(awk -F'=' '/Exec=/ {print $2}' ~/.config/autostart/lxrandr-autostart.desk
 ## Gnome keyring
 #gnome-keyring-daemon &
 thunar --daemon &
-/usr/lib/mate-notification-daemon/mate-notification-daemon &
-
+dunst -config ~/.config/dunst/dunstrc &
 /.config/bspwm/bspwmrc &
 #nextcloud
 nextcloud &

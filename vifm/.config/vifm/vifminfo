@@ -17,8 +17,8 @@
 # Bookmarks:
 
 # TUI:
-ar
-q0
+al
+q1
 v2
 ov
 m-1
@@ -26,269 +26,312 @@ l2
 r2
 
 # Left window history (oldest to newest):
-d/home/fred/nextcloud
-	todoForSystem
-35
-d/home/fred
-	Pictures
-6
-d/home/fred/Pictures
-	wallpapers
-1
-d/home/fred/Pictures/wallpapers
-	..
-0
-d/home/fred/Pictures
-	..
-0
-d/home/fred
-	dotfiles
-9
-d/home/fred/dotfiles
-	alacritty
-2
-d/home/fred/dotfiles/alacritty
-	..
-0
-d/home/fred/dotfiles
-	alacritty
-1
-d/home/fred/dotfiles/alacritty
-	..
-0
-d/home/fred/dotfiles
-	alacritty_laptop
-2
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/.config/alacritty
-	alacritty.yml
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles
-	alacritty_laptop
-3
-d/home/fred
-	dotfiles
-9
-d/home
-	fred
-1
-d/
-	home
+d/opt/plexmedia/Movies
+	Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB [PublicHD]
 4
-d/home
-	fred
+d/opt/plexmedia
+	Movies
 1
-d/home/fred
-	dotfiles
+d/opt
+	plexmedia
+4
+d/
+	opt
 9
-d/home/fred/dotfiles
-	alacritty_laptop
+d/opt
+	plexmedia
+4
+d/opt/plexmedia
+	Movies
+1
+d/opt/plexmedia/Movies
+	Pulp.Fiction.1994.1080p.BluRay.x264.DTS-ETRG
 3
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/.config/alacritty
-	alacritty.yml
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	..
-0
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles
-	alacritty_laptop
+d/opt/plexmedia/Movies/Pulp.Fiction.1994.1080p.BluRay.x264.DTS-ETRG
+	Pulp.Fiction.1994.1080p.BluRay.x264.DTS-ETRG.Sample.mkv
+4
+d/home/fred
+	Downloads
 3
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config/alacritty
-	alacritty.yml
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/alacritty/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles
-	alacritty_laptop
-3
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop/.config/alacritty
-	alacritty.yml
-1
-d/home/fred/dotfiles/alacritty_laptop/.config
-	alacritty
-1
-d/home/fred/dotfiles/alacritty_laptop
-	.config
-1
-d/home/fred/dotfiles
-	polybar
-10
-d/home/fred/dotfiles/polybar
-	.config
-1
-d/home/fred/dotfiles/polybar/.config
-	polybar
-1
-d/home/fred/dotfiles/polybar/.config/polybar
-	dracula_bar
-1
+d/home/fred/Downloads
+	wallpaperflare.com_wallpaper(3).jpg
+23
 d
 
 # Right window history (oldest to newest):
-D/home/fred/nextcloud
-	Wallpapers
-1
-D/home/fred
-	nextcloud
-16
-D/home
-	fred
-1
 D/home/fred
 	nextcloud
 16
 D/home/fred/nextcloud
-	learning_resources
-10
+	scripts
+17
+D/home/fred/nextcloud/scripts
+	vifmrun
+2
+D/home/fred/nextcloud
+	scripts
+17
 D/home/fred
-	dotfiles
-9
-D/home/fred/dotfiles
-	alacritty
-1
-D/home/fred/dotfiles/alacritty
-	.config
-1
-D/home/fred/dotfiles/alacritty/.config
-	alacritty
-1
-D/home/fred/dotfiles/alacritty/.config/alacritty
-	..
-0
-D/home/fred/dotfiles/alacritty/.config
-	alacritty
-1
-D/home/fred/dotfiles/alacritty
-	.config
-1
-D/home/fred/dotfiles
-	polybar_laptop
-11
-D/home/fred/dotfiles/polybar_laptop
-	.config
-1
-D/home/fred/dotfiles/polybar_laptop/.config
-	polybar
-1
-D/home/fred/dotfiles/polybar_laptop/.config/polybar
-	config
+	Downloads
+4
+D/home/fred/Downloads
+	polybar-glacier-master
 5
-D/home/fred/dotfiles/polybar_laptop/.config
-	polybar
+D/home/fred/Downloads/polybar-glacier-master
+	scripts
 1
-D/home/fred/dotfiles/polybar_laptop
-	.config
+D/home/fred/Downloads/polybar-glacier-master/scripts
+	battery
 1
-D/home/fred/dotfiles
-	polybar_laptop
-11
-D/home/fred
-	Pictures
-10
-D/home/fred/Pictures
-	wallpapers
+D/home/fred/Downloads/polybar-glacier-master
+	scripts
 1
-D/home/fred/Pictures/wallpapers
-	..
-0
+D/home/fred/Downloads
+	Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB [PublicHD]
+2
 D
 
 # Command line history (oldest to newest):
 :mkdir alacritty_laptop/.config/alacritty -p
-:mkdir alacritty_laptop/.config
-:mkdir alacritty_laptop
-:mkdir .config
-:q
-:mkdir alacritty
+:sudo chow -R plex/opt/plexmedia
+:! sudo chown -R plex: /opt/plexmedia
+:! sudo chmod +r .
+:ls
+:! sudo chmod +666 ./plexmedia
 :wq
+:! ls -a
+:cd /opt/plexmedia
 :w
+:!setbg ./wallpaperflare.com_wallpaper.jpg
+:!setbg wallpaperflare.com_wallpaper.jpg
+:!setbg wallpaperflare.com_wallpaper(1).jpg
+:! setbg wallpaperflare.com_wallpaper(2).jpg
+:! setbg ./wallpaperflare.com_wallpaper(1).jpg
+:! setbg wallpaperflare.com_wallpaper\(1\).jpg
+:! setbg wallpaperflare.com_wallpaper\(2\).jpg
+:!setbg wallpaperflare.com_wallpaper\(3\).jpg
+:q
 
 # Search history (oldest to newest):
+/dotfilesk
+/dot
+/polybar
+/poly
+/.config
+/.scri
+/.bashrc
+/plexmedi
+/plex
+/wakatime
 
 # Prompt history (oldest to newest):
 pIMG_20190515_181024.jpg
+pscripts
+pbspcForward
+pbspcBackward
+palacritty
+pplex
 
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/fred/dotfiles/polybar/.config/polybar/dracula_bar
-""/home/fred/dotfiles/polybar/.config/polybar/scripts
-""/home/fred/dotfiles/polybar/.config/polybar/README.md
-""/home/fred/dotfiles/polybar/.config/polybar/colors
-""/home/fred/dotfiles/polybar/.config/polybar/config
-""/home/fred/dotfiles/polybar/.config/polybar/configexample
-""/home/fred/dotfiles/polybar/.config/polybar/launch.sh
-""/home/fred/dotfiles/polybar/.config/polybar/nohup.out
+""/home/fred/Downloads/wallpaperflare.com_wallpaper(3).jpg
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/fred/.local/share/vifm/Trash/000_-p
+	/home/fred/dotfiles/vifm/-p
+t/home/fred/.local/share/vifm/Trash/000_README.md
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/README.md
+t/home/fred/.local/share/vifm/Trash/000_package-lock.json
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/package-lock.json
+t/home/fred/.local/share/vifm/Trash/000_package.json
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/package.json
+t/home/fred/.local/share/vifm/Trash/000_public
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/public
+t/home/fred/.local/share/vifm/Trash/000_node_modules
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/node_modules
+t/home/fred/.local/share/vifm/Trash/000_src
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/src
+t/home/fred/.local/share/vifm/Trash/000_unicafe
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/unicafe
+t/home/fred/.local/share/vifm/Trash/000_courseinfo
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/courseinfo
+t/home/fred/.local/share/vifm/Trash/000_anecdotes
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/anecdotes
+t/home/fred/.local/share/vifm/Trash/000_memes
+	/home/fred/Pictures/wallpapers/memes
+t/home/fred/.local/share/vifm/Trash/000_docker-curriculum
+	/home/fred/docker-curriculum
+t/home/fred/.local/share/vifm/Trash/000_logs
+	/home/fred/logs
+t/home/fred/.local/share/vifm/Trash/000_hello
+	/home/fred/nextcloud/learning/helsinki_full_stack/part1/event_handlers/hello
+t/home/fred/.local/share/vifm/Trash/000_FoodTrucks
+	/home/fred/FoodTrucks
+t/home/fred/.local/share/vifm/Trash/000_Audiobooks
+	/home/fred/Audiobooks
+t/home/fred/.local/share/vifm/Trash/000_2020-03-09-220521_1009x231_scrot.png
+	/home/fred/2020-03-09-220521_1009x231_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-09-232615_867x600_scrot.png
+	/home/fred/2020-03-09-232615_867x600_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-09-232910_792x281_scrot.png
+	/home/fred/2020-03-09-232910_792x281_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-09-233720_729x304_scrot.png
+	/home/fred/2020-03-09-233720_729x304_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-09-233749_720x391_scrot.png
+	/home/fred/2020-03-09-233749_720x391_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-10-012904_5120x1440_scrot.png
+	/home/fred/2020-03-10-012904_5120x1440_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-10-012950_2536x1396_scrot.png
+	/home/fred/2020-03-10-012950_2536x1396_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-10-013650_1261x1396_scrot.png
+	/home/fred/2020-03-10-013650_1261x1396_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-10-013707_1261x1396_scrot.png
+	/home/fred/2020-03-10-013707_1261x1396_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_2020-03-10-013715_1261x1396_scrot.png
+	/home/fred/2020-03-10-013715_1261x1396_scrot.png
+t/home/fred/.local/share/vifm/Trash/000_a.out
+	/home/fred/a.out
+t/home/fred/.local/share/vifm/Trash/000_launchRanger.sh
+	/home/fred/launchRanger.sh
+t/home/fred/.local/share/vifm/Trash/000_log.txt
+	/home/fred/log.txt
+t/home/fred/.local/share/vifm/Trash/000_myZip.zip
+	/home/fred/myZip.zip
+t/home/fred/.local/share/vifm/Trash/000_myzipper.zip
+	/home/fred/myzipper.zip
+t/home/fred/.local/share/vifm/Trash/000_nohup.out
+	/home/fred/nohup.out
+t/home/fred/.local/share/vifm/Trash/000_poem.txt
+	/home/fred/poem.txt
+t/home/fred/.local/share/vifm/Trash/000_poem2.txt
+	/home/fred/poem2.txt
+t/home/fred/.local/share/vifm/Trash/000_q4.jpg
+	/home/fred/q4.jpg
+t/home/fred/.local/share/vifm/Trash/000_something.jpg
+	/home/fred/something.jpg
+t/home/fred/.local/share/vifm/Trash/000_something_000.jpg
+	/home/fred/something_000.jpg
+t/home/fred/.local/share/vifm/Trash/000_something_001.jpg
+	/home/fred/something_001.jpg
+t/home/fred/.local/share/vifm/Trash/000_test.cpp
+	/home/fred/test.cpp
+t/home/fred/.local/share/vifm/Trash/000_test.sh
+	/home/fred/test.sh
+t/home/fred/.local/share/vifm/Trash/000_unknown.png
+	/home/fred/unknown.png
+t/home/fred/.local/share/vifm/Trash/000_Q3
+	/home/fred/Downloads/Q3
+t/home/fred/.local/share/vifm/Trash/000_Q4
+	/home/fred/Downloads/Q4
+t/home/fred/.local/share/vifm/Trash/000_matlab_R2019b_glnxa64
+	/home/fred/Downloads/matlab_R2019b_glnxa64
+t/home/fred/.local/share/vifm/Trash/000_polybar-glacier-master
+	/home/fred/Downloads/polybar-glacier-master
+t/home/fred/.local/share/vifm/Trash/000_5003CEM TCA - 8463955(1).odt
+	/home/fred/Downloads/5003CEM TCA - 8463955(1).odt
+t/home/fred/.local/share/vifm/Trash/000_5003CEM TCA - 8463955.odt
+	/home/fred/Downloads/5003CEM TCA - 8463955.odt
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_Concurrent_1_Instructions.doc
+	/home/fred/Downloads/5003CEM_Concurrent_1_Instructions.doc
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_EXAMPLE_TCA_1920.docx
+	/home/fred/Downloads/5003CEM_EXAMPLE_TCA_1920.docx
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_REPORT_Fred_Cook_8463955.docx
+	/home/fred/Downloads/5003CEM_REPORT_Fred_Cook_8463955.docx
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_TCA_1920 (1).docx
+	/home/fred/Downloads/5003CEM_TCA_1920 (1).docx
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_TCA_1920(1).docx
+	/home/fred/Downloads/5003CEM_TCA_1920(1).docx
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_TCA_1920.docx
+	/home/fred/Downloads/5003CEM_TCA_1920.docx
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_W8_LAB_TASK(1).doc
+	/home/fred/Downloads/5003CEM_W8_LAB_TASK(1).doc
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_W8_LAB_TASK.doc
+	/home/fred/Downloads/5003CEM_W8_LAB_TASK.doc
+t/home/fred/.local/share/vifm/Trash/000_5003CEM_report_template+guidance.docx
+	/home/fred/Downloads/5003CEM_report_template+guidance.docx
+t/home/fred/.local/share/vifm/Trash/000_5004CEM TCA - 8463955.pdf
+	/home/fred/Downloads/5004CEM TCA - 8463955.pdf
+t/home/fred/.local/share/vifm/Trash/000_5004CEM_TCA_ANSWERS.docx
+	/home/fred/Downloads/5004CEM_TCA_ANSWERS.docx
+t/home/fred/.local/share/vifm/Trash/000_5004CEM_april(1).docx
+	/home/fred/Downloads/5004CEM_april(1).docx
+t/home/fred/.local/share/vifm/Trash/000_5004CEM_april.docx
+	/home/fred/Downloads/5004CEM_april.docx
+t/home/fred/.local/share/vifm/Trash/000_5011CEM CW1 Brief Mod.docx
+	/home/fred/Downloads/5011CEM CW1 Brief Mod.docx
+t/home/fred/.local/share/vifm/Trash/000_5011CEM Portfolio1 Brief.docx
+	/home/fred/Downloads/5011CEM Portfolio1 Brief.docx
+t/home/fred/.local/share/vifm/Trash/000_5011CEM Viva1 Brief Submission Update.docx
+	/home/fred/Downloads/5011CEM Viva1 Brief Submission Update.docx
+t/home/fred/.local/share/vifm/Trash/000_Algorithms (Autosaved).docx
+	/home/fred/Downloads/Algorithms (Autosaved).docx
+t/home/fred/.local/share/vifm/Trash/000_AlgorithmsNotesForProfessionals.pdf
+	/home/fred/Downloads/AlgorithmsNotesForProfessionals.pdf
+t/home/fred/.local/share/vifm/Trash/000_Assignment Brief Portfolio 5004cem v2(1).docx
+	/home/fred/Downloads/Assignment Brief Portfolio 5004cem v2(1).docx
+t/home/fred/.local/share/vifm/Trash/000_Assignment Brief Portfolio 5004cem v2.docx
+	/home/fred/Downloads/Assignment Brief Portfolio 5004cem v2.docx
+t/home/fred/.local/share/vifm/Trash/000_Q3.zip
+	/home/fred/Downloads/Q3.zip
+t/home/fred/.local/share/vifm/Trash/000_Q4.zip
+	/home/fred/Downloads/Q4.zip
+t/home/fred/.local/share/vifm/Trash/000_RefundApplicationForm(1).pdf
+	/home/fred/Downloads/RefundApplicationForm(1).pdf
+t/home/fred/.local/share/vifm/Trash/000_Report Template.docx
+	/home/fred/Downloads/Report Template.docx
+t/home/fred/.local/share/vifm/Trash/000_alacritty(1).yml
+	/home/fred/Downloads/alacritty(1).yml
+t/home/fred/.local/share/vifm/Trash/000_alacritty(2).yml
+	/home/fred/Downloads/alacritty(2).yml
+t/home/fred/.local/share/vifm/Trash/000_alacritty.yml
+	/home/fred/Downloads/alacritty.yml
+t/home/fred/.local/share/vifm/Trash/000_backiee-110132-landscape.jpg
+	/home/fred/Downloads/backiee-110132-landscape.jpg
+t/home/fred/.local/share/vifm/Trash/000_big_data_flow.png
+	/home/fred/Downloads/big_data_flow.png
+t/home/fred/.local/share/vifm/Trash/000_big_data_project-master.zip
+	/home/fred/Downloads/big_data_project-master.zip
+t/home/fred/.local/share/vifm/Trash/000_config
+	/home/fred/Downloads/config
+t/home/fred/.local/share/vifm/Trash/000_glibc-1.09-crypt.tar.gz
+	/home/fred/Downloads/glibc-1.09-crypt.tar.gz
+t/home/fred/.local/share/vifm/Trash/000_glowing-tides-2560×1440.jpg
+	/home/fred/Downloads/glowing-tides-2560×1440.jpg
+t/home/fred/.local/share/vifm/Trash/000_greedy_TSP_to_complete (1).py
+	/home/fred/Downloads/greedy_TSP_to_complete (1).py
+t/home/fred/.local/share/vifm/Trash/000_greedy_TSP_to_complete.py
+	/home/fred/Downloads/greedy_TSP_to_complete.py
+t/home/fred/.local/share/vifm/Trash/000_manjaro-architect-19.0-200223-linux54.iso
+	/home/fred/Downloads/manjaro-architect-19.0-200223-linux54.iso
+t/home/fred/.local/share/vifm/Trash/000_manjaro-xfce-19.0.2-200311-linux54.iso
+	/home/fred/Downloads/manjaro-xfce-19.0.2-200311-linux54.iso
+t/home/fred/.local/share/vifm/Trash/000_matlab_R2019b_glnxa64.zip
+	/home/fred/Downloads/matlab_R2019b_glnxa64.zip
+t/home/fred/.local/share/vifm/Trash/000_polybar-glacier-master.zip
+	/home/fred/Downloads/polybar-glacier-master.zip
+t/home/fred/.local/share/vifm/Trash/000_sxhkdrc
+	/home/fred/Downloads/sxhkdrc
+t/home/fred/.local/share/vifm/Trash/000_testingApplication.drawio
+	/home/fred/Downloads/testingApplication.drawio
+t/home/fred/.local/share/vifm/Trash/000_testingApplication.png
+	/home/fred/Downloads/testingApplication.png
+t/home/fred/.local/share/vifm/Trash/000_ubuntu-18.04.4-desktop-amd64.iso
+	/home/fred/Downloads/ubuntu-18.04.4-desktop-amd64.iso
+t/home/fred/.local/share/vifm/Trash/000_ubuntu-19.10.1-preinstalled-server-arm64+raspi3.img.xz
+	/home/fred/Downloads/ubuntu-19.10.1-preinstalled-server-arm64+raspi3.img.xz
+t/home/fred/.local/share/vifm/Trash/000_MATLAB
+	/home/fred/Documents/MATLAB
+t/home/fred/.local/share/vifm/Trash/000_testzip
+	/home/fred/testzip
+t/home/fred/.local/share/vifm/Trash/000_Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB [PublicHD]
+	/home/fred/plex/Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB [PublicHD]
+t/home/fred/.local/share/vifm/Trash/000_Oil_Prices_Collapse_-38_a_Barrel_What_The_Hell_Just_Happened_-_TLDR_News[youtubetomp4.org].mp4
+	/opt/plexmedia/Movies/Oil_Prices_Collapse_-38_a_Barrel_What_The_Hell_Just_Happened_-_TLDR_News[youtubetomp4.org].mp4
+t/home/fred/.local/share/vifm/Trash/000_ETRG.mp4
+	/opt/plexmedia/Movies/Pulp.Fiction.1994.1080p.BluRay.x264.DTS-ETRG/ETRG.mp4
 t/home/fred/.local/share/vifm/Trash/000_-p
 	/home/fred/dotfiles/-p
 t/home/fred/.local/share/vifm/Trash/000_.config
@@ -297,10 +340,10 @@ t/home/fred/.local/share/vifm/Trash/000_.config
 # State:
 f
 i1
-[.0
+[.1
 [F
 F
 I1
-].0
+].1
 ]F
 s0
