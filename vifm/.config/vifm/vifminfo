@@ -4,15 +4,19 @@
 'H
 	/home/fred/
 	..
-1586126032
+1589047671
 'b
 	/home/fred/bin/
 	..
-1586126032
+1589047671
 'h
 	/home/fred/
 	..
-1586126032
+1589047671
+'z
+	/home/fred/.config/vifm
+	..
+1589047671
 
 # Bookmarks:
 
@@ -50,12 +54,60 @@ d/opt/plexmedia/Movies
 d/opt/plexmedia/Movies/Pulp.Fiction.1994.1080p.BluRay.x264.DTS-ETRG
 	Pulp.Fiction.1994.1080p.BluRay.x264.DTS-ETRG.Sample.mkv
 4
+d/home/fred/Downloads/1984 (George Orwell) - Audio Book
+	Audio Books - George Orwell - 1984 - 2 of 14.mp3
+2
+d/home/fred/.config
+	VirtualBox
+13
+d/home/fred/.config/VirtualBox
+	..
+0
+d/home/fred/.config
+	VirtualBox
+13
 d/home/fred
 	Downloads
 3
 d/home/fred/Downloads
-	wallpaperflare.com_wallpaper(3).jpg
-23
+	Big data spec.docx
+7
+d/home/fred
+	dotfiles
+14
+d/home/fred/dotfiles
+	vifm
+17
+d/home/fred/dotfiles/vifm
+	.config
+1
+d/home/fred/dotfiles/vifm/.config
+	vifm
+1
+d/home/fred/dotfiles/vifm/.config/vifm
+	scripts
+2
+d/home/fred/dotfiles/vifm/.config/vifm/scripts
+	imgt
+3
+d/home/fred/dotfiles/vifm/.config/vifm
+	scripts
+2
+d/home/fred/dotfiles/vifm/.config
+	vifm
+1
+d/home/fred/dotfiles/vifm
+	.config
+1
+d/home/fred/dotfiles
+	dunst
+7
+d/home/fred
+	Downloads
+4
+d/home/fred/Downloads
+	RefundApplicationForm.pdf
+22
 d
 
 # Right window history (oldest to newest):
@@ -77,18 +129,18 @@ D/home/fred
 D/home/fred/Downloads
 	polybar-glacier-master
 5
-D/home/fred/Downloads/polybar-glacier-master
-	scripts
-1
-D/home/fred/Downloads/polybar-glacier-master/scripts
-	battery
-1
-D/home/fred/Downloads/polybar-glacier-master
-	scripts
-1
-D/home/fred/Downloads
-	Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB [PublicHD]
+D/home/fred/Downloads/Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB [PublicHD]
+	Two.Lane.Blacktop.1971.720p.BluRay.x264-HDCLUB.mkv
 2
+D/home/fred/.config
+	vifm
+47
+D/home/fred/.config/vifm
+	scripts
+2
+D/home/fred/.config/vifm/scripts
+	..
+0
 D
 
 # Command line history (oldest to newest):
@@ -101,7 +153,6 @@ D
 :wq
 :! ls -a
 :cd /opt/plexmedia
-:w
 :!setbg ./wallpaperflare.com_wallpaper.jpg
 :!setbg wallpaperflare.com_wallpaper.jpg
 :!setbg wallpaperflare.com_wallpaper(1).jpg
@@ -110,6 +161,17 @@ D
 :! setbg wallpaperflare.com_wallpaper\(1\).jpg
 :! setbg wallpaperflare.com_wallpaper\(2\).jpg
 :!setbg wallpaperflare.com_wallpaper\(3\).jpg
+:! chmod +x imgc imgt
+:set colors dracula
+:setcolor dracula
+:mkdir scripts
+:w
+:coloscheme dracula
+:set colorscheme
+:h
+:!mv wallpaper3 wallpaper3.jpg
+:! setbg ./wallpaper3.jpg
+:colorscheme dracula
 :q
 
 # Search history (oldest to newest):
@@ -123,6 +185,7 @@ D
 /plexmedi
 /plex
 /wakatime
+/vifm
 
 # Prompt history (oldest to newest):
 pIMG_20190515_181024.jpg
@@ -135,11 +198,13 @@ pplex
 # Local filter history (oldest to newest):
 
 # Registers:
-""/home/fred/Downloads/wallpaperflare.com_wallpaper(3).jpg
+""/home/fred/dotfiles/vifm/.config/vifm/scripts/vifmimg
 
 # Directory stack (oldest to newest):
 
 # Trash content:
+t/home/fred/.local/share/vifm/Trash/000_vifmimg
+	/home/fred/.config/vifm/scripts/vifmimg
 t/home/fred/.local/share/vifm/Trash/000_-p
 	/home/fred/dotfiles/vifm/-p
 t/home/fred/.local/share/vifm/Trash/000_README.md
@@ -340,7 +405,7 @@ t/home/fred/.local/share/vifm/Trash/000_.config
 # State:
 f
 i1
-[.1
+[.0
 [F
 F
 I1
