@@ -70,6 +70,7 @@ d/home/fred
 	Downloads
 3
 d/home/fred/Downloads
+<<<<<<< HEAD
 	Big data spec.docx
 7
 d/home/fred
@@ -108,6 +109,19 @@ d/home/fred
 d/home/fred/Downloads
 	RefundApplicationForm.pdf
 22
+=======
+	Star Wars Episode VI Return of the Jedi (1983) [1080p]
+3
+d/home/fred/Downloads/Star Wars Episode VI Return of the Jedi (1983) [1080p]
+	WWW.YIFY-TORRENTS.COM.jpg
+3
+d/home/fred/Downloads
+	Star Wars Episode VI Return of the Jedi (1983) [1080p]
+3
+d/home/fred
+	Downloads
+3
+>>>>>>> 91d8e3dae0748b4e6e11b15a2913de4c5a39904e
 d
 
 # Right window history (oldest to newest):
