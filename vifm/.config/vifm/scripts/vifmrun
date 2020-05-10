@@ -16,9 +16,5 @@ mkfifo "$FIFO_UEBERZUG" >/dev/null
 trap cleanup EXIT 2>/dev/null
 tail --follow "$FIFO_UEBERZUG" | ueberzug layer --silent --parser bash 2>&1 >/dev/null &
 
-<<<<<<< HEAD
 vifm "$@"
-=======
-vifm 
->>>>>>> 91d8e3dae0748b4e6e11b15a2913de4c5a39904e
 cleanup
