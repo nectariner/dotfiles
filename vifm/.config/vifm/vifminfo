@@ -136,20 +136,23 @@ d/home/fred/nextcloud
 	learning
 10
 d/home/fred/nextcloud/learning
-	shell_scripting.org
-4
+	example_web_app
+1
 d/home/fred/nextcloud
-	learning
-10
+	test_stuff
+19
 d/home/fred
-	Downloads
-3
-d/home/fred/Downloads
-	wallpaper3.jpg
-24
+	nextcloud
+16
+d/home/fred/nextcloud
+	test_stuff
+19
+d/home/fred/nextcloud/test_stuff
+	..
+0
 d/home/fred
-	Downloads
-3
+	nextcloud
+15
 d
 
 # Right window history (oldest to newest):
@@ -215,6 +218,7 @@ D
 :colorscheme dracula
 :!firefox ./shell_scripting.org.html
 :w
+:!firefox presentation.html
 :q
 
 # Search history (oldest to newest):
