@@ -4,7 +4,7 @@
 umask 022 
 
 # Set our default path
-PATH="/usr/local/sbin:/usr/local/bin:/usr/bin/core_perl:/usr/bin:$HOME/.config/bspwm/panel:$HOME/.bin:$HOME/nextcloud/scripts"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/bin/core_perl:/usr/bin:$HOME/.config/bspwm/panel:$HOME/.bin:$HOME/.scripts"
 
 export PANEL_FIFO="/tmp/panel-fifo"
 export PATH

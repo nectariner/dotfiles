@@ -56,3 +56,5 @@ bspc rule -a Screenkey manage=off
 bspc rule -a Emacs state=tiled
 bspc rule -a "*doom* - Doom Emacs" state=tiled
 bspc rule -a Zathura state=tiled
+bspc rule -a Steam state=tiled
+bspc rule -a Steam focus=off

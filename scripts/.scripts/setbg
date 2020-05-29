@@ -1,0 +1,9 @@
+echo $1
+file_name=$(basename $1)
+
+mkdir -p ~/Pictures/wallpapers 
+
+mv $1 ~/Pictures/wallpapers/$file_name -i
+
+nitrogen --set-scaled ~/Pictures/wallpapers/$file_name --head=[0..3] --save
+notify-send "Wallpaper set and saved"

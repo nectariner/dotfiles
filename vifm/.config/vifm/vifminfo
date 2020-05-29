@@ -151,8 +151,14 @@ d/home/fred/nextcloud/test_stuff
 	..
 0
 d/home/fred
-	nextcloud
-15
+	Pictures
+5
+d/home/fred/Pictures
+	wallpapers
+1
+d/home/fred/Pictures/wallpapers
+	wallpaper3.jpg
+10
 d
 
 # Right window history (oldest to newest):
