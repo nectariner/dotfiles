@@ -159,6 +159,33 @@ d/home/fred/Pictures
 d/home/fred/Pictures/wallpapers
 	wallpaper3.jpg
 10
+d/home/fred
+	Downloads
+3
+d/home/fred/Downloads
+	ubuntu-20.04-preinstalled-server-arm64+raspi.img
+5
+d/home/fred
+	Downloads
+3
+d/home/fred/Downloads
+	ubuntu-20.04-preinstalled-server-arm64+raspi.img.xz
+5
+d/home/fred
+	Pictures
+6
+d/home/fred/Pictures
+	wallpapers
+1
+d/home/fred/Pictures/wallpapers
+	HuFovzt.jpg
+3
+d/home/fred
+	Downloads
+3
+d/home/fred/Downloads
+	ubuntu-20.04-preinstalled-server-arm64+raspi.img
+4
 d
 
 # Right window history (oldest to newest):
@@ -225,6 +252,12 @@ D
 :!firefox ./shell_scripting.org.html
 :w
 :!firefox presentation.html
+:! setbg anchorage-alaska-3840×2160.jpg
+:!setbg anchorage-alaska-2560×1440.jpg
+:!setbg wallpaperflatre.com_wallpaper.jpg
+:! setbg wallpaper
+:!setbg wallpaper3.jpg
+:!setbg astronauts-surface-exploration-stars-rockets-31876.jpeg
 :q
 
 # Search history (oldest to newest):
