@@ -186,6 +186,12 @@ d/home/fred
 d/home/fred/Downloads
 	ubuntu-20.04-preinstalled-server-arm64+raspi.img
 4
+d/home/fred
+	nextcloud
+11
+d/home/fred/nextcloud
+	Fred Cook - CV.docx
+5
 d
 
 # Right window history (oldest to newest):
