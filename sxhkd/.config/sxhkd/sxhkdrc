@@ -72,10 +72,10 @@ super + shift + {1-9,0}
 
 #OPEN APPLICATIONS#
 super + e
-    code &
+    $GUI_EDITOR &
 
 super + m 
-   firefox 
+   $BROWSER &
 
 super + r
     alacritty -e ~/.config/vifm/scripts/vifmrun ~/ &
