@@ -1,5 +1,3 @@
 !.gitignore
 vifm/.config/vifm/vifminfo
-nvim/.config/nvim/*
-!nvim/.config/nvim/init.vim
 

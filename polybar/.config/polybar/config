@@ -198,9 +198,10 @@ label-occupied-underline = ${colors.underline}
 ;;;;;label-urgent = %index%!
 label-urgent =%icon%
 
+
 label-urgent-background = ${colors.alert}
 label-urgent-padding = ${padding.bspwm-padding}
-label-urgen-margin = ${padding.bspwm-margin}
+label-urgent-margin = ${padding.bspwm-margin}
 ;;;;;label-empty = %index%
 label-empty = %icon%
 

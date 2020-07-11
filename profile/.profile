@@ -21,6 +21,7 @@ export VISUAL=/usr/bin/nvim
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export READER=/usr/bin/zathura
 export FILES=/usr/bin/vifm
+export VIDEO=/usr/bin/vlc
 
 # Load profiles from /etc/profile.d
 if test -d /etc/profile.d/; then
