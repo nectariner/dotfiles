@@ -2,16 +2,16 @@ let SessionLoad = 1
 let s:so_save = &so | let s:siso_save = &siso | set so=0 siso=0
 let v:this_session=expand("<sfile>:p")
 silent only
-cd ~/Downloads
+cd ~/
 if expand('%') == '' && !&modified && line('$') <= 1 && getline(1) == ''
   let s:wipebuf = bufnr('%')
 endif
 set shortmess=aoO
-badd +0 account-summary(1).csv
+badd +0 .xinitrc
 argglobal
 %argdel
-$argadd account-summary(1).csv
-edit account-summary(1).csv
+$argadd .xinitrc
+edit .xinitrc
 set splitbelow splitright
 wincmd t
 set winminheight=0
@@ -26,7 +26,7 @@ setlocal fdi=#
 setlocal fdl=0
 setlocal fml=1
 setlocal fdn=20
-setlocal nofen
+setlocal fen
 silent! normal! zE
 let s:l = 1 - ((0 * winheight(0) + 26) / 53)
 if s:l < 1 | let s:l = 1 | endif
