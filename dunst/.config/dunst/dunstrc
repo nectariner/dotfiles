@@ -46,7 +46,7 @@
     # Show age of message if message is older than show_age_threshold
     # seconds.
     # Set to -1 to disable.
-    show_age_threshold = 60
+    show_age_threshold = -1
     
     # Split notifications into multiple lines if they don't fit into
     # geometry.
@@ -68,7 +68,7 @@
     # the top and down respectevly.
     # The width can be negative.  In this case the actual width is the
     # screen width minus the width defined in within the geometry option.
-    geometry = "0x4-25+25"
+    geometry = "0x4-35+55"
     
     # Shrink window if it's smaller than the width.  Will be ignored if
     # width is 0.
@@ -83,7 +83,8 @@
     # for longer than idle_threshold seconds.
     # Set to 0 to disable.
     # default 120
-    idle_threshold = 120 
+    idle_threshold = 20 
+    set_transient = no
     
     # Which monitor should the notifications be displayed on.
     monitor = 0
@@ -127,6 +128,7 @@
     
     # Horizontal padding.
     horizontal_padding = 10
+    vertical_padding = 15 
     
     # Define a color for the separator.
     # possible values are:

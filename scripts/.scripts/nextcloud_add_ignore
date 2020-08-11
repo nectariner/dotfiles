@@ -1,0 +1,10 @@
+#script that is run and finds common directories and files that shouldn't be synced to nextcloud
+#can be run directly or ideally as part of a cron job
+
+#usage : nextcloud_add_ignore <path to nextcloud folder> <optional - pattern to add>
+
+targets=(target a.out node_modules)       #targets to ignore / add to .sync-exclude.lst
+
+
+
+

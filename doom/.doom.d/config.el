@@ -80,27 +80,3 @@
 (setq doom-themes-neotree-enable-file-icons t)
 (setq doom-themes-neotree-file-icons t)
 
-;;prettier
-(require 'prettier-js)
-(add-hook 'js2-mode-hook 'prettier-js-mode)
-(setq prettier-js-args '(
-{
-  "arrowParens": "always",
-  "bracketSpacing": true,
-  "htmlWhitespaceSensitivity": "css",
-  "insertPragma": false,
-  "jsxBracketSameLine": false,
-  "jsxSingleQuote": false,
-  "printWidth": 96,
-  "proseWrap": "preserve",
-  "quoteProps": "as-needed",
-  "requirePragma": false,
-  "semi": true,
-  "singleQuote": false,
-  "tabWidth": 4,
-  "trailingComma": "es5",
-  "useTabs": false,
-  "vueIndentScriptAndStyle": false
-}
-))
-
