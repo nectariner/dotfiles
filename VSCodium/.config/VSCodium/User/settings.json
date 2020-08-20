@@ -28,5 +28,5 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontLigatures": null,
     "editor.fontFamily": "'Inconsolata Nerd Font','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "vscode-neovim.neovimPath": "/usr/bind/nvim",
+    "vscode-neovim.neovimPath": "/usr/bin/nvim",
 }
