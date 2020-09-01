@@ -1,2 +1,0 @@
-#rebind caps
-xmodmap /home/$USER/.scripts/rebind_caps
