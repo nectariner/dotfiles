@@ -4,3 +4,4 @@ interval = 1
 
 format-prefix = %{T3}%{T-}
 label = " %percentage:2%%"
+margin = 20

@@ -10,6 +10,7 @@ xfce4-power-manager &
 nm-applet &
 unclutter --timeout 4 &
 pidof bspswallow || bspswallow &
+/home/$USER/.scripts/rebinder &
 #### MONITORS ####
 ~/.scripts/bspc_monitor_startup &
 

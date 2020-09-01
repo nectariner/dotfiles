@@ -26,7 +26,8 @@ include-file = /home/$USER/.config/polybar/scripts/terminal
 
 [global/wm]
 ;https://github.com/jaagr/polybar/wiki/Configuration#global-wm-settings
-margin-top = 0
+margin-top = 20
+padding-top = 20
 margin-bottom = 0
 
 [settings]
@@ -141,7 +142,7 @@ enable-ipc = true
 border-size = 0
 ;border-left-size = 0
 ;border-right-size = 25
-border-top-size = 3
+border-top-size = 5
 ;border-bottom-size = 25
 border-color = #00000000
 
@@ -155,7 +156,7 @@ module-margin-right = 2
 
 ;font-0 = "Arimo Nerd Font:style=mono:size=15"
 font-0= "Inconsolata Nerd Font Complete Mono.otf: Inconsolata Nerd Font Mono:style=Medium:size=14;2"
-font-1 = "Arimo Nerd Font:style=mono:size=15"
+;font-0 = "Arimo Nerd Font:style=mono:size=15"
 
 ;font-fallback = "DroidSansMono Nerd Font Mono:size=14;2"
 
@@ -183,7 +184,7 @@ type = custom/script
 formt-prefix = ""
 exec = ~/.config/polybar/scripts/check-all-updates.sh
 label = " %output%" 
-interval = 60
+nterval = 60
 
 [module/bspwm]
 type = internal/bspwm
