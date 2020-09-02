@@ -119,8 +119,9 @@ monitor = ${env:MONITOR}
 monitor-fallback = HDMI1
 width = 100%
 height = 26 
+;offset-x = -10
 offset-x = 0%
-offset-y = 0%
+offset-y = 0
 radius = 0
 fixed-center = true
 bottom = false
@@ -142,7 +143,12 @@ enable-ipc = true
 border-size = 0
 ;border-left-size = 0
 ;border-right-size = 25
+
+;;;;;this is the thing for how far from the top of the screen the bar is basically
 border-top-size = 5
+
+
+
 ;border-bottom-size = 25
 border-color = #00000000
 
@@ -155,8 +161,8 @@ module-margin-right = 2
 ;https://github.com/jaagr/polybar/wiki/Fonts
 
 ;font-0 = "Arimo Nerd Font:style=mono:size=15"
-font-0= "Inconsolata Nerd Font Complete Mono.otf: Inconsolata Nerd Font Mono:style=Medium:size=14;2"
-;font-0 = "Arimo Nerd Font:style=mono:size=15"
+;font-0= "Inconsolata Nerd Font Complete Mono.otf: Inconsolata Nerd Font Mono:style=Medium:size=14;2"
+font-0 = "Arimo Nerd Font:style=mono:size=15"
 
 ;font-fallback = "DroidSansMono Nerd Font Mono:size=14;2"
 
@@ -170,7 +176,7 @@ modules-center = date
 modules-right = pavolume cpu memory arch-aur-updates 
 
 tray-detached = false
-tray-offset-x = 0
+tray-offset-x = 5
 tray-offset-y = -3
 tray-position = right
 tray-padding = 9
@@ -184,7 +190,7 @@ type = custom/script
 formt-prefix = ""
 exec = ~/.config/polybar/scripts/check-all-updates.sh
 label = " %output%" 
-nterval = 60
+interval = 60
 
 [module/bspwm]
 type = internal/bspwm
