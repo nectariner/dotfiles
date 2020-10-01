@@ -1,0 +1,10 @@
+#!/bin/sh
+
+#update the list of extensions to be the ones installed
+if [ -n "$1" ]; then
+	filepath=$1
+else
+	filepath="/home/$USER/dotfiles/VSCodium/.config/VSCodium/User/extensions.list"
+fi
+
+codium --list-extensions --list-versions > $filepath

@@ -3,6 +3,7 @@
 if [ -n "$1" ]; then
 	filepath=$1
 else
+	#default filepath, normally used
 	filepath="/home/$USER/dotfiles/VSCodium/.config/VSCodium/User/extensions.list"
 fi
 

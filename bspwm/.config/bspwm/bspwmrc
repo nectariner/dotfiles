@@ -10,7 +10,7 @@ xfce4-power-manager &
 nm-applet &
 unclutter --timeout 4 &
 pidof bspswallow || bspswallow &
-/home/$USER/.scripts/rebinder &
+#/home/$USER/.scripts/rebinder &
 #### MONITORS ####
 ~/.scripts/bspc_monitor_startup &
 
@@ -61,3 +61,4 @@ bspc rule -a Zathura state=tiled
 bspc rule -a * state=tiled
 bspc rule -a Steam state=tiled
 bspc rule -a Steam focus=off
+bspc rule -a dota2 state=tiled
