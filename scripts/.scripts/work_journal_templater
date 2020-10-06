@@ -1,0 +1,31 @@
+#!/bin/sh
+
+#todo
+#get most recent week mentioned in the document as we append dates and days after that point
+#get the days that mondays (start of the week) are on
+#append to file
+
+if [ -n "$1" ]; then
+	#$1 = filelocation
+	file=$1
+else
+	#default filepath
+	file="/home/$USER/nextcloud/notebooks/work_journal.md"
+fi
+
+#most recent date will be right near the bottom
+most_recent_date=$(grep -e "[0-9][0-9]-[0-9][0-9]-[0-9][0-9]" $file | tail -n 1 | sed s/#//g)
+#echo $most_recent_date
+
+#convert from ddmmyyyy to mmddyyyy for date to work
+new_date=${most_recent_date:4:2}/${most_recent_date:1:2}/${most_recent_date:7:4}
+echo $new_date
+
+for week in {1..30}
+do
+	date_to_out=$(date -d "$new_date + $week week" +%d/%m/%C%y)
+	echo $date_to_out
+	week_output="## $date_to_out\n### Monday\n\n### Tuesday\n\n### Wednesday\n\n### Thursday\n\n### Friday\n\n### Saturday\n\n### Sunday\n\n--- "
+	echo -e "$week_output" >> $file
+
+done

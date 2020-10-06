@@ -1,0 +1,17 @@
+#!/bin/sh
+
+#Recognise whether the device i'm on is desktop or laptop and then set an environment variable accordingly, which can then be used to do things such as set font sizes
+
+embedded_display=$(xrandr --listmonitors | grep "eDP")
+if [ -z "$embedded_display" ];
+then
+	echo "no embedded display, probably on pc"
+	export SYSTEM="PC"
+	export ALACRITTY_FONT_SIZE=13.0
+	sed -i s/"size: SET_BY_SCRIPT"/"size: 13.0"/g /home/$USER/.config/alacritty/alacritty.yml
+else
+	echo "embedded display available, probably on laptop"
+	export SYSTEM="LAPTOP"
+	export ALACRITTY_FONT_SIZE=12.0
+	sed -i s/"size: SET_BY_SCRIPT"/"size: 12.0"/g /home/$USER/.config/alacritty/alacritty.yml
+fi
