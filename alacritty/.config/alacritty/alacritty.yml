@@ -115,20 +115,20 @@ font:
   bold_italic:
     family: Source Code Pro medium
     style: Bold Italic
-  size: 13.0
+  size: SET_BY_SCRIPT
 
     #    normal:
-    #     family: FiraCode Nerd Font 
+    #     family: FiraCode Nerd Font
     #     style: Regular
     #
     #    bold:
-    #     family: Fira Code 
+    #     family: Fira Code
     #     style: Bold
     #
     #    italic:
     #      family: Fira Code
     #      style: Italic
-    #    
+    #
     #    bold_italic:
     #      family: Fira Code
     #      style: Bold Italic
@@ -168,7 +168,7 @@ colors:
   # Default colors
   primary:
     background: '#282C34'
-    foreground: '#abb2bf'
+    foreground: '#e0e0e0'
     dim_foreground: '#a5abb6'
 
   # Normal colors
