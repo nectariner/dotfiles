@@ -1,6 +1,5 @@
-.gitignore
-vifm/.config/vifm/vifminfo
-./alacritty/.config/alacritty/alacritty.yml
-./nvim/.config/nvim/*
-!./nvim/.config/nvim/init.vim
+/vifm/.config/vifm/vifminfo
+/alacritty/.config/alacritty/alacritty.yml
+/nvim/.config/nvim/**
+!/nvim/.config/nvim/init.vim
 
