@@ -12,6 +12,6 @@ then
 else
 	echo "embedded display available, probably on laptop"
 	export SYSTEM="LAPTOP"
-	export ALACRITTY_FONT_SIZE=12.0
+	export ALACRITTY_FONT_SIZE=10.0
 	sed -i s/"size: SET_BY_SCRIPT"/"size: 12.0"/g /home/$USER/.config/alacritty/alacritty.yml
 fi
