@@ -14,6 +14,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'rakr/vim-one'
     Plug 'sheerun/vim-polyglot'
     Plug 'vim-airline/vim-airline'
+    Plug 'wakatime/vim-wakatime'
 call plug#end()
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
@@ -44,7 +45,7 @@ syntax on
 "Formatting"
 set tabstop=4
 set shiftwidth=4
-set noexpandtab
+set expandtab
 
 "Keybinds
 "Easier split navigations
