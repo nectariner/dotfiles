@@ -7,5 +7,5 @@ else
 	filepath="/home/$USER/dotfiles/VSCodium/.config/VSCodium/User/extensions.list"
 fi
 
-cat $filepath | grep -v '^#' | xargs -L1 code --install-extension
-#< $filepath xargs -I % codium --install-extension %
+#cat $filepath | grep -v '^#' | xargs -L1 code --install-extension
+< $filepath xargs -I % codium --install-extension %

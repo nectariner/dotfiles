@@ -7,4 +7,4 @@ else
 	filepath="/home/$USER/dotfiles/VSCodium/.config/VSCodium/User/extensions.list"
 fi
 
-codium --list-extensions --list-versions > $filepath
+codium --list-extensions > $filepath

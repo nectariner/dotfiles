@@ -8,10 +8,10 @@ then
 	echo "no embedded display, probably on pc"
 	export SYSTEM="PC"
 	export ALACRITTY_FONT_SIZE=13.0
-	sed -i s/"size: SET_BY_SCRIPT"/"size: 13.0"/g /home/$USER/.config/alacritty/alacritty.yml
 else
 	echo "embedded display available, probably on laptop"
 	export SYSTEM="LAPTOP"
 	export ALACRITTY_FONT_SIZE=10.0
-	sed -i s/"size: SET_BY_SCRIPT"/"size: 12.0"/g /home/$USER/.config/alacritty/alacritty.yml
 fi
+
+sed s/"size: SET_BY_SCRIPT"/"size: $ALACRITTY_FONT_SIZE"/g /home/$USER/.config/alacritty/alacritty_before_substitution.yml > alacritty.yml

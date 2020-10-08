@@ -1,0 +1,21 @@
+#!/bin/bash
+
+#used to uninstall vscode extensions that are installed now that are not mentioned in the extensions.json file
+
+if [ -n "$1" ]; then
+    extensions_list=$1
+else
+    #default filepath, normally used
+    extensions_list="/home/$USER/dotfiles/VSCodium/.config/VSCodium/User/extensions.list"
+fi
+
+#names of extensions to remove
+extensions_to_remove=$(codium --list-extensions | cat $extensions_list - | sort | uniq -u)
+
+#number of extensions to remove
+num_of_extensions=$(echo "$extensions_to_remove" | wc -l)
+
+#then we have to 
+# for the number of extensions to remove
+# codium --uninstall-extension (AN EXTENSION)
+# sed s/AN_EXTENSION//g

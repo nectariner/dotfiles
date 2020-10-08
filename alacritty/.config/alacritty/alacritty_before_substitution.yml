@@ -115,7 +115,7 @@ font:
   bold_italic:
     family: Source Code Pro medium
     style: Bold Italic
-  size: 13.0
+  size: SET_BY_SCRIPT
 
     #    normal:
     #     family: FiraCode Nerd Font
