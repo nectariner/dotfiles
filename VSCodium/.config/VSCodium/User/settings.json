@@ -32,4 +32,6 @@
     "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
     "vscode-neovim.mouseSelectionStartVisualMode": true,
     "keyboard.dispatch": "keyCode",
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "git.enabled": false,
 }
