@@ -28,5 +28,8 @@
     "javascript.updateImportsOnFileMove.enabled": "always",
     "editor.fontLigatures": null,
     "editor.fontFamily": "'Inconsolata Nerd Font','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
-    "vscode-neovim.neovimPath": "/usr/bind/nvim",
+    "vscode-neovim.neovimInitVimPaths.linux": "/home/$USER/.config/nvim/init.vim",
+    "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+    "vscode-neovim.mouseSelectionStartVisualMode": true,
+    "keyboard.dispatch": "keyCode",
 }

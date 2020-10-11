@@ -4,20 +4,20 @@ asvetliakov.vscode-neovim
 cargo-inspect-vscode.cargo-inspect
 chriswheeldon.exuberant-ctags
 CoenraadS.bracket-pair-colorizer-2
+hbenl.vscode-test-explorer
 humao.rest-client
 llvm-vs-code-extensions.vscode-clangd
+matklad.rust-analyzer
 mohsen1.prettify-json
 ms-python.python
 ms-vscode.cpptools
 msjsdiag.vscode-react-native
 notskm.clang-tidy
 panicbit.cargo
-PKief.material-icon-theme
 rust-lang.rust
 serayuzgur.crates
+Swellaby.vscode-rust-test-adapter
 vscode-icons-team.vscode-icons
-and the second one
 WakaTime.vscode-wakatime
 ZainChen.json
 zhuangtongfa.material-theme
-extension that is on the list but not installed (we want to uninstall the extension and then remove the line from the list)
