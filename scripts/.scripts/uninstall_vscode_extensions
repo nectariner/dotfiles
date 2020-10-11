@@ -14,8 +14,17 @@ extensions_to_remove=$(codium --list-extensions | cat $extensions_list - | sort 
 
 #number of extensions to remove
 num_of_extensions=$(echo "$extensions_to_remove" | wc -l)
+echo "$num_of_extensions"
 
 #then we have to 
 # for the number of extensions to remove
 # codium --uninstall-extension (AN EXTENSION)
 # sed s/AN_EXTENSION//g
+for (( extension=1; extension<=$num_of_extensions; extension++ ))
+do
+    echo "$extension"
+    result=$(echo "$extensions_to_remove" | awk -v extension=$extension 'NR==extension{print}')
+    $(echo "$result" | codium --uninstall-extension)
+    $(echo "$result" | sed -i s/$result//g)
+    echo $result
+done
