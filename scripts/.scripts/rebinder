@@ -1,2 +1,2 @@
 #!/bin/sh
-xmodmap /home/$USER/.scripts/rebind_caps &
+xmodmap /home/$USER/.scripts/tester &

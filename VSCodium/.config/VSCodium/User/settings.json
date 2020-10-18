@@ -33,5 +33,6 @@
     "vscode-neovim.mouseSelectionStartVisualMode": true,
     "keyboard.dispatch": "keyCode",
     "terminal.integrated.shell.linux": "/bin/bash",
-    "git.enabled": false,
+    "git.terminalAuthentication": false,
+    "github.gitAuthentication": false,
 }
