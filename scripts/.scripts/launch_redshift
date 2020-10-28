@@ -1,0 +1,3 @@
+#!/bin/bash
+sudo killall redshift > /dev/null
+sudo redshift -c ~/.config/redshift.conf & > /dev/null

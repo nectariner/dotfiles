@@ -1,0 +1,17 @@
+#!/bin/bash
+
+#check if emacs is installed, if not complain and exit
+#this part can be removed from the script if not using pacman / arch
+emacs_installed=$(pacman -Q | grep "emacs")
+if [ -N $emacs_installed ]
+then
+    echo "Emacs not found via pacman, is it installed?"
+    exit
+fi
+
+#on the doom emacs github repo
+git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
+~/.emacs.d/bin/doom install
+
+stow /home/$USER/dotfiles/emacs
+/home/fred/$USER/.emacs.d/bin/doom sync
