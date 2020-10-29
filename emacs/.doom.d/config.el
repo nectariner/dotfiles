@@ -52,3 +52,17 @@
 ;;
 ;; You can also try 'gd' (or 'C-c c d') to jump to their definition and see how
 ;; they are implemented.
+
+;; Neotree
+;; install the fonts
+;;(all-the-icons-install-fonts)
+
+;;set the icons for neotree (in work)
+(setq doom-themes-neotree-enable-file-icons t)
+(setq doom-themes-neotree-file-icons t)
+
+;; set word wrap
+(setq word-wrap t)
+
+;;wakatime
+(global-wakatime-mode)
