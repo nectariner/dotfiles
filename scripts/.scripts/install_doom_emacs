@@ -11,7 +11,7 @@ fi
 
 #on the doom emacs github repo
 git clone --depth 1 https://github.com/hlissner/doom-emacs ~/.emacs.d
-~/.emacs.d/bin/doom install
+/home/$USER/emacs.d/bin/doom install
 
 stow /home/$USER/dotfiles/emacs
-/home/fred/$USER/.emacs.d/bin/doom sync
+/home/$USER/.emacs.d/bin/doom sync
