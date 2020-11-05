@@ -58,7 +58,14 @@
 (setq doom-themes-neotree-file-icons t)
 
 ;; set word wrap
-(setq word-wrap t)
+(setq word-wrap-mode t)
 
 ;;wakatime
+;; also use 'sudo pip install wakatime'
 (global-wakatime-mode)
+
+;;Company - autocomplete
+;; also use 'sudo pacman -S irony-mode'
+(require 'company)
+(setq company-idle-delay 0.2
+      company-minimum-prefix-length 3)
