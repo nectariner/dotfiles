@@ -1,19 +1,33 @@
 "Neovim config - Fred Cook
 
+set nocompatible
+
 " auto-install vim-plug
 if empty(glob('~/.config/nvim/autoload/plug.vim'))
     silent !curl -fLo ~/.config/nvim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
     autocmd VimEnter * PlugInstall
 endif
 
-
 "Plugins
 call plug#begin('~/.config/nvim/plugged')
+    "Colourschemes
+    Plug 'romgrk/doom-one.vim'
     Plug 'arcticicestudio/nord-vim'
     Plug 'rakr/vim-one'
+
     Plug 'sheerun/vim-polyglot'
     Plug 'vim-airline/vim-airline'
     Plug 'wakatime/vim-wakatime'
+    Plug 'tpope/vim-surround'
+    Plug 'preservim/nerdtree'
+    Plug 'vim-syntastic/syntastic'
+    Plug 'airblade/vim-gitgutter'
+    Plug 'frazrepo/vim-rainbow'
+
+    "language support
+    Plug 'ycm-core/YouCompleteMe'
+
+    Plug 'junegunn/fzf.vim'
 call plug#end()
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
@@ -41,10 +55,27 @@ highlight nonText ctermbg=NONE
 set number
 syntax on
 
+"syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
 "Formatting"
 set tabstop=4
+set smarttab
 set shiftwidth=4
 set expandtab
+set smartcase
+
+"vim-gitgutter
+function! GitStatus()
+  let [a,m,r] = GitGutterGetHunkSummary()
+  return printf('+%d ~%d -%d', a, m, r)
+endfunction
+set statusline+=%{GitStatus()}
+
+"rainbow
+let g:rainbow_active = 1
 
 "Keybinds
 "Easier split navigations
