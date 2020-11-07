@@ -1,4 +1,5 @@
 /vifm/.config/vifm/vifminfo
+/vifm/.config/vifm/vifminfo.json
 /alacritty/.config/alacritty/alacritty.yml
 /nvim/.config/nvim/**
 !/nvim/.config/nvim/init.vim
