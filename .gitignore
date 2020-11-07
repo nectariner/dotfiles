@@ -3,3 +3,11 @@
 /nvim/.config/nvim/**
 !/nvim/.config/nvim/init.vim
 
+/firefox/.mozilla/firefox/x9mibn2c.default-release/*
+!/firefox/.mozilla/firefox/x9mibn2c.default-release/extensions.json
+!/firefox/.mozilla/firefox/x9mibn2c.default-release/extensions/*
+!/firefox/.mozilla/firefox/x9mibn2c.default-release/extension-settings.json
+!/firefox/.mozilla/firefox/x9mibn2c.default-release/extension-preferences.json
+!/firefox/.mozilla/firefox/x9mibn2c.default-release/prefs.js
+
+
