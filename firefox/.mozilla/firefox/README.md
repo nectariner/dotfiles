@@ -1,0 +1,1 @@
+note because I use firefox sync to sync these, this serves more as an easy way to track what I need to add entries for to sync required settings, this won't work if stowed, but helps to keep track of things
