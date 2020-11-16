@@ -51,3 +51,9 @@
 
 ;;wakatime
 (package! wakatime-mode)
+
+(package! eterm-256color)
+
+(package! ranger)
+
+(package! aggressive-indent)

@@ -1,3 +1,5 @@
+export TERM=xterm-256color
+
 # enable substitution for prompt
 setopt prompt_subst
 

@@ -19,7 +19,9 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'vim-airline/vim-airline'
     Plug 'wakatime/vim-wakatime'
     Plug 'tpope/vim-surround'
-    Plug 'preservim/nerdtree'
+
+    Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
+
     Plug 'vim-syntastic/syntastic'
     Plug 'airblade/vim-gitgutter'
     Plug 'frazrepo/vim-rainbow'
@@ -27,7 +29,6 @@ call plug#begin('~/.config/nvim/plugged')
     "language support
     Plug 'ycm-core/YouCompleteMe'
 
-    Plug 'junegunn/fzf.vim'
 call plug#end()
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
@@ -49,7 +50,7 @@ endif
 "Appearance
 let g:airline_theme='one'
 set t_Co=256
-colo one
+color one
 highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 set number
@@ -77,9 +78,12 @@ set statusline+=%{GitStatus()}
 "rainbow
 let g:rainbow_active = 1
 
+
 "Keybinds
 "Easier split navigations
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
+
+tnoremap <ESC> <C-\><C-N>

@@ -58,7 +58,7 @@
 (setq doom-themes-neotree-file-icons t)
 
 ;; set word wrap
-(setq word-wrap-mode t)
+(+global-word-wrap-mode)
 
 ;;wakatime
 ;; also use 'sudo pip install wakatime'
@@ -67,5 +67,20 @@
 ;;Company - autocomplete
 ;; also use 'sudo pacman -S irony-mode'
 (require 'company)
-(setq company-idle-delay 0.2
+(setq company-idle-delay 0.1
       company-minimum-prefix-length 3)
+
+;; https://stackoverflow.com/questions/1480572/how-to-have-emacs-auto-refresh-all-buffers-when-files-have-changed-on-disk
+;; refresh files when they're changed externally
+(global-auto-revert-mode t)
+
+;; refresh neotree when it changes externally
+(setq neo-buffer--refresh t)
+
+;; set aggressive indent
+;;(global-aggressive-indent-mode 1)
+;; can disable it for one mode with
+;; (add-to-list 'aggressive-indent-excluded-modes 'html-mode)
+
+;;set eterm-256-color
+(eterm-256color-mode)
