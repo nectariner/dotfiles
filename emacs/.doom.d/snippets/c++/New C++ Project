@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: New C++ Project
+# key: newc++project
+# --
+
+int main(){
+
+}

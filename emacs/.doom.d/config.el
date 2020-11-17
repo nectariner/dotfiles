@@ -54,8 +54,8 @@
 ;; they are implemented.
 
 ;; Neotree
-(setq doom-themes-neotree-enable-file-icons t)
-(setq doom-themes-neotree-file-icons t)
+;;(setq doom-themes-neotree-enable-file-icons t)
+;;(setq doom-themes-neotree-file-icons t)
 
 ;; set word wrap
 (+global-word-wrap-mode)
@@ -84,3 +84,4 @@
 
 ;;set eterm-256-color
 (eterm-256color-mode)
+
