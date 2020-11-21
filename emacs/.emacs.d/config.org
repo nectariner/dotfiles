@@ -1,0 +1,146 @@
+* Emacs
+** Change emacs window
+#+BEGIN_SRC emacs-lisp
+(tool-bar-mode -1)
+(menu-bar-mode -1)
+(scroll-bar-mode -1)
+#+END_SRC
+** Don't make backups
+#+BEGIN_SRC emacs-lisp
+(setq make-backup-file nil)
+(setq auto-save-default nil)
+#+END_SRC
+* Terminal
+#+BEGIN_SRC emacs-lisp
+(unless (package-installed-p 'vterm)
+  (package-refresh-contents)
+  (package-install 'vterm))
+
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+(defvar my-term-shell "/bin/zsh")
+(defadvice ansi-term (before force-bash)
+           (interactive (list my-term-shell)))
+(ad-activate 'ansi-term)
+
+;; eterm-256color
+(use-package eterm-256color
+  :ensure t)
+
+(add-hook 'term-mode-hook #'eterm-256color-mode)
+#+END_SRC
+* EVIL Mode
+#+BEGIN_SRC emacs-lisp
+;; Download Evil
+(unless (package-installed-p 'evil)
+(package-refresh-contents)
+(package-install 'evil))
+
+;; Enable Evil
+(require 'evil)
+(evil-mode 1)
+
+(global-set-key (kbd "<space> f") 'counsel-find-file)
+#+END_SRC
+* Editor
+** better scrolling
+#+BEGIN_SRC emacs-lisp
+(setq scroll-conservatively 100)
+#+END_SRC
+* QOL
+** Beacon
+#+BEGIN_SRC emacs-lisp
+(use-package beacon
+             :ensure t
+             :init
+             (beacon-mode 1))
+#+END_SRC
+** org-bullets
+#+BEGIN_SRC emacs-lisp
+(use-package org-bullets
+:ensure t
+:config
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode))))
+#+END_SRC
+
+** Highlight line mode
+#+BEGIN_SRC emacs-lisp
+(global-hl-line-mode t)
+#+END_SRC
+
+** Ignore bell
+#+BEGIN_SRC emacs-lisp
+(setq ring-bell-function 'ignore)
+#+END_SRC
+** which-key
+#+BEGIN_SRC emacs-lisp
+(use-package which-key
+  :ensure t
+  :init
+  (which-key-mode))
+#+END_SRC
+* Ivy / Counsel
+#+BEGIN_SRC emacs-lisp
+(use-package counsel
+:ensure t
+:init
+(counsel-mode))
+
+(use-package ivy :demand
+:config
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t
+ivy-count-format "%d/%d "))
+
+(use-package smex
+:ensure t
+:init (smex-initialize))
+
+(global-set-key (kbd "M-x") 'counsel-M-x)
+(global-set-key (kbd "C-x C-f") 'counsel-find-file)
+#+END_SRC
+* avy
+#+BEGIN_SRC emacs-lisp
+(use-package avy
+:ensure t
+)
+#+END_SRC
+* buffers
+#+BEGIN_SRC emacs-lisp
+(global-set-key (kbd "C-x b") 'ibuffer)
+(global-set-key (kbd "C-x C-b") 'ido-switch-buffer)
+#+END_SRC
+* Themes
+** Colour themes
+#+BEGIN_SRC emacs-lisp
+(unless (package-installed-p 'doom-themes)
+  (package-refresh-contents)
+  (package-install 'doom-themes))
+#+END_SRC
+** Airline themes
+#+BEGIN_SRC emacs-lisp
+(unless (package-installed-p 'doom-modeline)
+  (package-refresh-contents)
+  (package-install 'doom-modeline))
+#+END_SRC
+* Electric
+#+BEGIN_SRC emacs-lisp
+(electric-pair-mode)
+#+END_SRC
+
+;* todo:
+;- hl-todo
+;- modeline
+;- ophints
+;- tabs
+;- treemacs
+;- vc-gutter
+;- window-select
+;- workspace
+;- magic
+;- syntax checker
+;- magit
+;- autocomplettionstuff
+;- leader
+;-dired with icons + ranger
+;- electric
