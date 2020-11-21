@@ -85,3 +85,11 @@
 ;;set eterm-256-color
 (eterm-256color-mode)
 
+(defvar my-term-shell "/bin/zsh")
+(defadvice ansi-term (before force-bash)
+           (interactive (list my-term-shell)))
+(ad-activate 'ansi-term)
+
+(map! :leader
+      :desc "Terminal"
+      "o t" #'ansi-term)
