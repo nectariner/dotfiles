@@ -78,6 +78,7 @@ set statusline+=%{GitStatus()}
 "rainbow
 let g:rainbow_active = 1
 
+set clipboard=unnamedplus
 
 "Keybinds
 "Easier split navigations

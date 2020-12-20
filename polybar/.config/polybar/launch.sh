@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 # Terminate already running bar instances
 killall -q polybar
@@ -7,7 +7,9 @@ killall -q polybar
 while pgrep -u $UID -x polybar >/dev/null; do sleep 1; done
 
 for m in $(polybar --list-monitors | cut -d":" -f1); do
+	TRAY_POS=right
 	WIRELESS=$(ls /sys/class/net/ | grep ^wl | awk 'NR==1{print $1}') MONITOR=$m polybar --reload main &
+	unset TRAY_POS
 done
 
 echo "Bars launched..."

@@ -5,6 +5,12 @@
 super + Escape
 	pkill -USR1 -x sxhkd
 
+XF86Audio{Prev,Next}
+	spotifyctl -q {previous,next}	
+
+XF86Audio{Play,Pause}
+	spotifyctl -q playpause
+
 # close and kill window
 super + c
 	bspc node -c
@@ -72,7 +78,7 @@ super + shift + {1-9,0}
 
 #OPEN APPLICATIONS#
 super + e
-    $GUI_EDITOR &
+    emacs &
 
 super + m 
    $BROWSER &

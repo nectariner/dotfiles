@@ -75,7 +75,18 @@
 (global-auto-revert-mode t)
 
 ;; refresh neotree when it changes externally
-(setq neo-buffer--refresh t)
+;(setq doom-themes-neotree-file-icons t)
+;(setq neo-buffer--refresh t)
+
+(all-the-icons-dired-mode)
+
+(treemacs-icons-dired-mode)
+(setq treemacs-file-event-delay 1500)
+(treemacs-git-mode 'deferred)
+    (treemacs-filewatch-mode t)
+
+
+
 
 ;; set aggressive indent
 ;;(global-aggressive-indent-mode 1)
@@ -83,7 +94,7 @@
 ;; (add-to-list 'aggressive-indent-excluded-modes 'html-mode)
 
 ;;set eterm-256-color
-(eterm-256color-mode)
+(add-hook 'term-mode-hook #'eterm-256color-mode)
 
 (defvar my-term-shell "/bin/zsh")
 (defadvice ansi-term (before force-bash)
@@ -93,3 +104,16 @@
 (map! :leader
       :desc "Terminal"
       "o t" #'ansi-term)
+
+(add-hook 'org-mode-hook (lambda () (org-bullets-mode)))
+
+(after! persp-mode
+        (setq persp-emacsclient-init-frame-behaviour-override "main"))
+
+
+(if (daemonp)
+    (add-hook 'after-make-frame-functions
+        (lambda (frame)
+            (select-frame frame)
+            (load-theme 'doom-one t)))
+    (load-theme 'doom-one t))

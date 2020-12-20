@@ -56,4 +56,9 @@
 
 (package! ranger)
 
-(package! aggressive-indent)
+;(package! aggressive-indent)
+
+(package! org-bullets)
+
+(package! treemacs-all-the-icons)
+(package! treemacs-icons-dired)
