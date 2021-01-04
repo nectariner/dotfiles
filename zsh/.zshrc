@@ -130,6 +130,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 alias vim="nvim"
 alias ls='ls -hn --color=auto --group-directories-first'
+alias code="codium"
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then

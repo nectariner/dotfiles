@@ -103,6 +103,7 @@
     # will be ignored.
     follow = mouse
     
+    timeout = 5
     # Should a notification popped up from history be sticky or timeout
     # as if it would normally do.
     sticky_history = yes
