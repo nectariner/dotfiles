@@ -7,6 +7,7 @@ nitrogen --restore &
 redshift -c ~/.config/redshift.conf &
 xfce4-power-manager &
 ~/.config/polybar/launch.sh &
+picom --config ~/.config/picom/picom.conf &
 nm-applet &
 unclutter --timeout 4 &
 pidof bspswallow || bspswallow &

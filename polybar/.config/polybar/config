@@ -169,7 +169,8 @@ font-0 = "Arimo Nerd Font:style=mono:size=15"
 ;font-0 = "SauceCodePro Medium nerd Font: size=12;2"
 ;font-0 = "DroidSansMono Nerd Font Mono:size=14;2"
 ;font-fallback = "NotoSansMono nerd font:size=12;2"
-font-1 = "Font Awesome 5:size=14"
+;font-1 = "Font Awesome 5:size=14"
+;font-2 = "Inconsolata:size=12"
 font-fallback = "Arimo Nerd Font:style=mono:size=15"
 
 modules-left = bspwm

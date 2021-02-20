@@ -15,13 +15,17 @@ fi
 
 #most recent date will be right near the bottom
 most_recent_date=$(grep -e "[0-9][0-9]-[0-9][0-9]-[0-9][0-9]" $file | tail -n 1 | sed s/#//g)
-#echo $most_recent_date
+
+if [ -n "$most_recent_data" ]; then
+	most_recent_data=$(date +%d/%m/%C%y)
+fi
+echo $most_recent_date
 
 #convert from ddmmyyyy to mmddyyyy for date to work
 new_date=${most_recent_date:4:2}/${most_recent_date:1:2}/${most_recent_date:7:4}
 echo $new_date
 
-for week in {1..30}
+for week in {1..52}
 do
 	date_to_out=$(date -d "$new_date + $week week" +%d/%m/%C%y)
 	echo $date_to_out

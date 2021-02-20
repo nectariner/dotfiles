@@ -130,7 +130,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 alias vim="nvim"
 alias ls='ls -hn --color=auto --group-directories-first'
-alias code="codium"
+alias code="code-insiders"
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
@@ -140,6 +140,12 @@ if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
         print -P "%F{33}▓▒░ %F{34}Installation successful.%f%b" || \
         print -P "%F{160}▓▒░ The clone has failed.%f%b"
 fi
+
+# DOTNET - Required
+export PATH="$PATH:/home/YOUR_USER_NAME/.dotnet/tools"
+# DOTNET - Optional
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+export ASPNETCORE_ENVIRONMENT=Development
 
 source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit

@@ -12,15 +12,16 @@ export XDG_CONFIG_HOME="$HOME/.config"
 export BSPWM_SOCKET="/tmp/bspwm-socket"
 export PANEL_HEIGHT=25
 export XDG_CONFIG_DIRS=/usr/etc/xdg:/etc/xdg
-export BROWSER=/usr/bin/firefox
+export BROWSER=/usr/bin/microsoft-edge-dev
 export TERMINAL=/usr/bin/alacritty
 export QT_QPA_PLATFORMTHEME="qt5ct"
 export EDITOR=/usr/bin/nvim
-export VISUAL=/usr/bin/codium
+export VISUAL=/usr/bin/code-insiders
 export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export READER=/usr/bin/zathura
 export FILES=/usr/bin/vifm
 export VIDEO=/usr/bin/vlc
+export SHELL=/usr/bin/zsh
 
 # Load profiles from /etc/profile.d
 if test -d /etc/profile.d/; then
@@ -42,4 +43,4 @@ unset TERMCAP
 unset MANPATH
 
 
-export PATH="$HOME/.cargo/bin:$PATH"
+source "$HOME/.cargo/env"

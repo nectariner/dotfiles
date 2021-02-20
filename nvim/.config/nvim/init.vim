@@ -26,8 +26,12 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'airblade/vim-gitgutter'
     Plug 'frazrepo/vim-rainbow'
 
+    Plug 'jiangmiao/auto-pairs'
     "language support
-    Plug 'ycm-core/YouCompleteMe'
+"    Plug 'ycm-core/YouCompleteMe'
+	Plug 'pboettch/vim-cmake-syntax'
+
+	Plug 'vimwiki/vimwiki'
 
 call plug#end()
 
@@ -65,7 +69,7 @@ set statusline+=%*
 set tabstop=4
 set smarttab
 set shiftwidth=4
-set expandtab
+"set expandtab
 set smartcase
 
 "vim-gitgutter
@@ -78,7 +82,14 @@ set statusline+=%{GitStatus()}
 "rainbow
 let g:rainbow_active = 1
 
-set clipboard=unnamedplus
+"set clipboard=unnamedplus
+set clipboard^=unnamed,unnamedplus
+
+"open file where it was last closed
+au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") | exe "normal! g`\"" | endif
+
+filetype plugin on
+syntax on
 
 "Keybinds
 "Easier split navigations

@@ -14,4 +14,4 @@ else
 	export ALACRITTY_FONT_SIZE=10.0
 fi
 
-sed s/"size: SET_BY_SCRIPT"/"size: $ALACRITTY_FONT_SIZE"/g /home/$USER/.config/alacritty/alacritty_before_substitution.yml > alacritty.yml
+sed s/"size: SET_BY_SCRIPT"/"size: $ALACRITTY_FONT_SIZE"/g /home/$USER/.config/alacritty/alacritty_before_substitution.yml > ~/.config/alacritty/alacritty.yml
