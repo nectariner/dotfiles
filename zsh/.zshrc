@@ -131,6 +131,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 alias vim="nvim"
 alias ls='ls -hn --color=auto --group-directories-first'
 alias code="code-insiders"
+alias vifm="~/.config/vifm/scripts/vifmrun ."
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
@@ -147,8 +148,13 @@ export PATH="$PATH:/home/YOUR_USER_NAME/.dotnet/tools"
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export ASPNETCORE_ENVIRONMENT=Development
 
+# IEx
+export ERL_AFLAGS="-kernel shell_history enabled"
+
+
 source "$HOME/.zinit/bin/zinit.zsh"
 autoload -Uz _zinit
 (( ${+_comps} )) && _comps[zinit]=_zinit
 zinit light zsh-users/zsh-autosuggestions
 zinit light zdharma/fast-syntax-highlighting
+

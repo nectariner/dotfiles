@@ -32,6 +32,9 @@ super + space
 super + f
     ~/.scripts/bspfullscreen
 
+super + v
+	~/.scripts/toggletdrop
+
 # FOCUS/SWAP
 
 # focus the node in the given direction

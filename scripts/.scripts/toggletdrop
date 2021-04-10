@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# check if the program is running first
+#is_active=$(ps -aux | grep dropdown | grep -v "grep")
+#
+#if [ -n "$is_active" ]; then
+#	echo "hello!!"
+#fi
+
+#tdrop -a -s dropdown alacritty
+tdrop -w 99% -x 5 -a current

@@ -16,6 +16,7 @@ spotify-listener &
 ~/.scripts/bspc_monitor_startup &
 ~/.scripts/desktop_or_laptop &
 setxkbmap -option caps:swapescape
+alacritty -e ~/.scripts/toggletdrop
 
 #### BSPWM configuration ####
 #bspc config border_radius                8
@@ -65,3 +66,8 @@ bspc rule -a * state=tiled
 bspc rule -a Steam state=tiled
 bspc rule -a Steam focus=off
 bspc rule -a dota2 state=tiled
+bspc rule -a "Ball Physics Simulator" state=floating
+
+
+bspc rule -a dropdown sticky=on state=floating hidden=on
+alacritty --class dropdown -e "zsh -i" &
