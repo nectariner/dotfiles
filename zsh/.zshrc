@@ -132,6 +132,7 @@ alias vim="nvim"
 alias ls='ls -hn --color=auto --group-directories-first'
 alias code="code-insiders"
 alias vifm="~/.config/vifm/scripts/vifmrun ."
+alias cat="bat --theme ansi"
 
 ### Added by Zinit's installer
 if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then

@@ -207,3 +207,4 @@ alias grep='grep --colour=auto'
 alias egrep='egrep --colour=auto'
 alias fgrep='fgrep --colour=auto'
 source "$HOME/.cargo/env"
+. "$HOME/.cargo/env"

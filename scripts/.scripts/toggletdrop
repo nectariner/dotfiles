@@ -8,4 +8,4 @@
 #fi
 
 #tdrop -a -s dropdown alacritty
-tdrop -w 99% -x 5 -a current
+tdrop -w 49% -x 20 -a current
