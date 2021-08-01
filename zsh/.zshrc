@@ -130,7 +130,7 @@ zstyle ':vcs_info:git:*' actionformats '(%b|%a%u%c)'
 
 alias vim="nvim"
 alias ls='ls -hn --color=auto --group-directories-first'
-alias code="code-insiders"
+alias code="code"
 alias vifm="~/.config/vifm/scripts/vifmrun ."
 alias cat="bat --theme ansi"
 

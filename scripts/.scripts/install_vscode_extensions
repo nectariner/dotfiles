@@ -8,4 +8,4 @@ else
 fi
 
 #cat $filepath | grep -v '^#' | xargs -L1 code --install-extension
-< $filepath xargs -I % codium --install-extension %
+< $filepath xargs -I % code --install-extension %
