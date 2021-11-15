@@ -144,13 +144,16 @@ if [[ ! -f $HOME/.zinit/bin/zinit.zsh ]]; then
 fi
 
 # DOTNET - Required
-export PATH="$PATH:/home/YOUR_USER_NAME/.dotnet/tools"
+export PATH="$PATH:/home/$USER/.dotnet/tools"
 # DOTNET - Optional
 export DOTNET_CLI_TELEMETRY_OPTOUT=1
 export ASPNETCORE_ENVIRONMENT=Development
 
 # IEx
 export ERL_AFLAGS="-kernel shell_history enabled"
+
+# biber
+export PATH="$PATH:/usr/bin/vendor_perl/"
 
 
 source "$HOME/.zinit/bin/zinit.zsh"

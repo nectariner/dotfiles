@@ -8,6 +8,6 @@ then
 fi
 
 nitrogen --set-scaled ~/Pictures/wallpapers/$file_name --head=0 --save > /dev/null
-nitrogen --set-scaled ~/Pictures/wallpapers/$file_name --head=1 --save > /dev/null
+#nitrogen --set-scaled ~/Pictures/wallpapers/$file_name --head=1 --save > /dev/null
 nitrogen --set-scaled ~/Pictures/wallpapers/$file_name --head=2 --save > /dev/null
 notify-send "Wallpaper set and saved"

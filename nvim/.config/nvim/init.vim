@@ -20,20 +20,25 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'wakatime/vim-wakatime'
     Plug 'tpope/vim-surround'
 
-    Plug 'ms-jpq/chadtree', {'branch': 'chad', 'do': ':UpdateRemotePlugins'}
-
     Plug 'vim-syntastic/syntastic'
     Plug 'airblade/vim-gitgutter'
     Plug 'frazrepo/vim-rainbow'
 
     Plug 'jiangmiao/auto-pairs'
     "language support
-"    Plug 'ycm-core/YouCompleteMe'
+    Plug 'ycm-core/YouCompleteMe'
 	Plug 'pboettch/vim-cmake-syntax'
 
-	Plug 'vimwiki/vimwiki'
+	Plug 'lervag/vimtex'
 
 call plug#end()
+
+let g:deoplete#enable_at_startup = 1
+call deoplete#custom#var('omni', 'input_patterns', {
+      \ 'tex': g:vimtex#re#deoplete
+      \})
+
+let g:vimtex_view_general_viewer = 'evince'
 
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
@@ -70,7 +75,7 @@ set tabstop=4
 set smarttab
 set shiftwidth=4
 "set expandtab
-set smartcase
+set ignorecase
 
 "vim-gitgutter
 function! GitStatus()

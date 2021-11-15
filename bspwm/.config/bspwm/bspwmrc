@@ -1,7 +1,7 @@
 #!/bin/sh
 #####Fred Cook#####
 # Set our default path
-PATH="/usr/local/sbin:/usr/local/bin:/usr/bin/core_perl:/usr/bin:$HOME/.config/bspwm/panel:$HOME/.bin:$HOME/.scripts"
+PATH="/usr/local/sbin:/usr/local/bin:/usr/bin/core_perl:/usr/bin:$HOME/.config/bspwm/panel:$HOME/.bin:$HOME/.scripts:/home/$USER/.dotnet/tools"
 
 export PATH
 export XDG_CONFIG_HOME="$HOME/.config"
@@ -29,8 +29,9 @@ spotify-listener &
 #### MONITORS ####
 ~/.scripts/bspc_monitor_startup &
 ~/.scripts/desktop_or_laptop &
-setxkbmap -option caps:swapescape
-alacritty -e ~/.scripts/toggletdrop
+setxkbmap -option caps:swapescape &
+alacritty -e ~/.scripts/toggletdrop &
+xsetroot -cursor_name left_ptr &
 
 #### BSPWM configuration ####
 #bspc config border_radius                8
@@ -85,3 +86,5 @@ bspc rule -a "Ball Physics Simulator" state=floating
 
 bspc rule -a dropdown sticky=on state=floating hidden=on
 alacritty --class dropdown -e "zsh -i" &
+
+/bin/bash -c "sleep 10&&dropbox start -i" &

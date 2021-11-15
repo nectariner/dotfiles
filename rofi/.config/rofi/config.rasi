@@ -142,3 +142,4 @@ element normal active, element selected active, element alternate active {
     text-color: #ff79c6;
 }
 
+@theme "/usr/share/rofi/themes/Pop-Dark.rasi"
