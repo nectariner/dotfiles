@@ -23,6 +23,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'vim-syntastic/syntastic'
     Plug 'airblade/vim-gitgutter'
     Plug 'frazrepo/vim-rainbow'
+	Plug 'yangmillstheory/vim-snipe'
 
     Plug 'jiangmiao/auto-pairs'
     "language support
@@ -40,6 +41,8 @@ call deoplete#custom#var('omni', 'input_patterns', {
 
 let g:vimtex_view_general_viewer = 'evince'
 
+
+setlocal spell spelllang=en_gb
 "Use 24-bit (true-color) mode in Vim/Neovim when outside tmux.
 "If you're using tmux version 2.2 or later, you can remove the outermost $TMUX check and use tmux's 24-bit color support
 "(see < http://sunaku.github.io/tmux-24bit-color.html#usage > for more information.)
@@ -104,3 +107,6 @@ nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
 tnoremap <ESC> <C-\><C-N>
+
+" set vim snipe key
+map f <Plug>(snipe-f)
