@@ -31,8 +31,10 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'pboettch/vim-cmake-syntax'
 
 	Plug 'lervag/vimtex'
+	Plug 'luochen1990/rainbow'
 
 call plug#end()
+let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 
 let g:deoplete#enable_at_startup = 1
 call deoplete#custom#var('omni', 'input_patterns', {
