@@ -32,7 +32,7 @@ spotify-listener &
 setxkbmap -option caps:swapescape &
 alacritty -e ~/.scripts/toggletdrop &
 xsetroot -cursor_name left_ptr &
-
+trayer --edge top --align right --widthtype percent --width 11 --height 31 --padding 5 --transparent true --alpha 100000 --iconspacing 10 &
 #### BSPWM configuration ####
 #bspc config border_radius                8
 bspc config border_width                  5

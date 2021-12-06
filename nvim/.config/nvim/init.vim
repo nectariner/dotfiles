@@ -25,7 +25,7 @@ call plug#begin('~/.config/nvim/plugged')
     Plug 'frazrepo/vim-rainbow'
 	Plug 'yangmillstheory/vim-snipe'
 
-    Plug 'jiangmiao/auto-pairs'
+    "Plug 'jiangmiao/auto-pairs'
     "language support
     Plug 'ycm-core/YouCompleteMe'
 	Plug 'pboettch/vim-cmake-syntax'
@@ -41,7 +41,7 @@ call deoplete#custom#var('omni', 'input_patterns', {
       \ 'tex': g:vimtex#re#deoplete
       \})
 
-let g:vimtex_view_general_viewer = 'evince'
+let g:vimtex_view_general_viewer = 'zathura'
 
 
 setlocal spell spelllang=en_gb
@@ -69,6 +69,8 @@ highlight Normal ctermbg=NONE
 highlight nonText ctermbg=NONE
 set number
 syntax on
+set scrolloff=4
+set title
 
 "syntastic
 set statusline+=%#warningmsg#
@@ -81,6 +83,8 @@ set smarttab
 set shiftwidth=4
 "set expandtab
 set ignorecase
+
+set undofile
 
 "vim-gitgutter
 function! GitStatus()
