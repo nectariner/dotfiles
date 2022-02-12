@@ -26,6 +26,7 @@ nm-applet &
 unclutter --timeout 4 &
 pidof bspswallow || bspswallow &
 spotify-listener & 
+nextcloud &
 #### MONITORS ####
 ~/.scripts/bspc_monitor_startup &
 ~/.scripts/desktop_or_laptop &
@@ -87,4 +88,3 @@ bspc rule -a "Ball Physics Simulator" state=floating
 bspc rule -a dropdown sticky=on state=floating hidden=on
 alacritty --class dropdown -e "zsh -i" &
 
-/bin/bash -c "sleep 10&&dropbox start -i" &

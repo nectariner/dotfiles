@@ -33,6 +33,12 @@ call plug#begin('~/.config/nvim/plugged')
 	Plug 'lervag/vimtex'
 	Plug 'luochen1990/rainbow'
 
+    Plug 'preservim/nerdtree'
+    Plug 'Xuyuanp/nerdtree-git-plugin'
+    Plug 'ryanoasis/vim-devicons'
+    Plug 'tiagofumo/vim-nerdtree-syntax-highlight'
+    Plug 'scrooloose/nerdtree-project-plugin'
+    Plug 'PhilRunninger/nerdtree-buffer-ops'
 call plug#end()
 let g:rainbow_active = 1 "set to 0 if you want to enable it later via :RainbowToggle
 
@@ -79,9 +85,9 @@ set statusline+=%*
 
 "Formatting"
 set tabstop=4
-set smarttab
+"set smarttab
 set shiftwidth=4
-"set expandtab
+set expandtab
 set ignorecase
 
 set undofile
