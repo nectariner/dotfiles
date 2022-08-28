@@ -81,10 +81,10 @@ super + m
    $BROWSER &
 
 super + r
-    alacritty -e ~/.config/vifm/scripts/vifmrun ~/ &
+    kitty -e ~/.config/vifm/scripts/vifmrun ~/ &
 #Default terminal on the system (changed in ~/.profile 
 super + Return
-    alacritty &
+    kitty &
 # DMENU SCRIPTS 
 
 # run program launcher
